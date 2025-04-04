@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = TKS_Core_V11_Web_Common
+build_property.RootNamespace = TKS_Core_V11_Web_Common
+build_property.ProjectDir = G:\Temp\AC\TKS_Thuc_Tap_11\TKS_Core_V11_Web_Common\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Temp\AC\TKS_Thuc_Tap_11\TKS_Core_V11_Web_Common
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_Blank.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX0JsYW5rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_Combo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX0NvbWJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_Convert_Data.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX0NvbnZlcnRfRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FBase_TKELog_Private_Tool.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZCYXNlX1RLRUxvZ19Qcml2YXRlX1Rvb2wucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Drill_Down.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fRHJpbGxfRG93bi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_General_Col_Grid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fR2VuZXJhbF9Db2xfR3JpZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Help_Guide.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fSGVscF9HdWlkZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Import_Excel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fSW1wb3J0X0V4Y2VsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Import_File.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fSW1wb3J0X0ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Message_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fTWVzc2FnZV9JbmZvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Record_Action_History_List.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fUmVjb3JkX0FjdGlvbl9IaXN0b3J5X0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FCommon_Report_Viewer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZDb21tb25fUmVwb3J0X1ZpZXdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FLeft_Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZMZWZ0X01lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Common/FTool_Button.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXEZUb29sX0J1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Shared/MPBlank_Layout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1QQmxhbmtfTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Common/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-w7rn95lgnm

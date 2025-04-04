@@ -1,0 +1,39 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = TKS_Core_V11_Web_Danh_Muc
+build_property.RootNamespace = TKS_Core_V11_Web_Danh_Muc
+build_property.ProjectDir = G:\Temp\AC\TKS_Thuc_Tap_11\TKS_Core_V11_Web_Danh_Muc\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Temp\AC\TKS_Thuc_Tap_11\TKS_Core_V11_Web_Danh_Muc
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Danh_Muc/Pages/Danh_Muc/Chu_Hang.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ2h1X0hhbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_1_Chu_Hang_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18xX0NodV9IYW5nX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_2_Chu_Hang_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18yX0NodV9IYW5nX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_3_Chu_Hang_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18zX0NodV9IYW5nX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Temp/AC/TKS_Thuc_Tap_11/TKS_Core_V11_Web_Danh_Muc/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

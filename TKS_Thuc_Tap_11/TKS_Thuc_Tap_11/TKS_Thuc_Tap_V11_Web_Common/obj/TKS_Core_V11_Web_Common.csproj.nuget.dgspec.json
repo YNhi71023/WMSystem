@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Web_Common\\TKS_Core_V11_Web_Common.csproj": {}
+  },
+  "projects": {
+    "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
+        "projectName": "TKS_Thuc_Tap_V11_Data_Access",
+        "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "FuzzySharp": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
+        "projectName": "TKS_Thuc_Tap_V11_Report",
+        "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Web_Common\\TKS_Core_V11_Web_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Web_Common\\TKS_Core_V11_Web_Common.csproj",
+        "projectName": "TKS_Core_V11_Web_Common",
+        "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Web_Common\\TKS_Core_V11_Web_Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Web_Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              },
+              "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+                "projectPath": "G:\\Temp\\AC\\TKS_Thuc_Tap_11\\TKS_Core_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Append.Blazor.Printing": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Telerik.ReportViewer.Blazor": {
+              "target": "Package",
+              "version": "[17.2.23.1114, )"
+            },
+            "Telerik.Reporting.OpenXmlRendering": {
+              "target": "Package",
+              "version": "[17.2.23.1114, )"
+            },
+            "Telerik.Reporting.Services.AspNetCore": {
+              "target": "Package",
+              "version": "[17.2.23.1114, )"
+            },
+            "Telerik.UI.for.Blazor": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

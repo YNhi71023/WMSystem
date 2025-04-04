@@ -1,0 +1,12 @@
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\bin\Debug\net6.0\TKS_Core_V11_Data_Access.deps.json
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\bin\Debug\net6.0\TKS_Core_V11_Data_Access.dll
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\bin\Debug\net6.0\TKS_Core_V11_Data_Access.pdb
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.csproj.AssemblyReference.cache
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.GeneratedMSBuildEditorConfig.editorconfig
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.AssemblyInfoInputs.cache
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.AssemblyInfo.cs
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.csproj.CoreCompileInputs.cache
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.dll
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\refint\TKS_Core_V11_Data_Access.dll
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\TKS_Core_V11_Data_Access.pdb
+G:\Project\TKSolution\Implement\TKS_Core_V11\TKS_Core_V11_Data_Access\obj\Debug\net6.0\ref\TKS_Core_V11_Data_Access.dll

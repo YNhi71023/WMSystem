@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TKS_Thuc_Tap_V11_Web_Dashboard.props" />
+</Project>

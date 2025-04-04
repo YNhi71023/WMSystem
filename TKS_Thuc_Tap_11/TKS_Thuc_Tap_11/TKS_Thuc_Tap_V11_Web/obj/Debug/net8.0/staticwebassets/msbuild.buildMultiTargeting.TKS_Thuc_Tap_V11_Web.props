@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TKS_Thuc_Tap_V11_Web.props" />
+</Project>

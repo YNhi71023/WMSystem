@@ -1,0 +1,1477 @@
+{
+  "Version": 1,
+  "Hash": "Unr8rTmiaFstPczJgGfXsMuQVVDCtmYF31745wa5+Es=",
+  "Source": "TKS_Thuc_Tap_V11_Web_Common",
+  "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TKS_Thuc_Tap_V11_Web_Common\\wwwroot",
+      "Source": "TKS_Thuc_Tap_V11_Web_Common",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\append.blazor.printing\\6.2.0\\staticwebassets\\scripts.js",
+      "SourceId": "Append.Blazor.Printing",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\append.blazor.printing\\6.2.0\\staticwebassets\\",
+      "BasePath": "_content/Append.Blazor.Printing",
+      "RelativePath": "scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kszlrsl6be",
+      "Integrity": "dGNiW0qZr/8nUsKJRD1AmpoecUKsBsSzCgvkxjHdfLM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\append.blazor.printing\\6.2.0\\staticwebassets\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.reportviewer.blazor.trial\\19.0.25.211\\staticwebassets\\interop.js",
+      "SourceId": "Telerik.ReportViewer.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.reportviewer.blazor.trial\\19.0.25.211\\staticwebassets\\",
+      "BasePath": "_content/Telerik.ReportViewer.Blazor.Trial",
+      "RelativePath": "interop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kvjbdvyrze",
+      "Integrity": "oN0k6nVE0BjyyDcyU7VeI9Tw+2KQJhjvFVna7ECXNlo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.reportviewer.blazor.trial\\19.0.25.211\\staticwebassets\\interop.js"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\font-icons.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-font-icons/font-icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "est2hspdhp",
+      "Integrity": "sovZC/Kd6KjLhtgnM/a/AnD79hdMcruR7be/I7/mfyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\font-icons.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\kendo-font-icons.ttf",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-font-icons/kendo-font-icons.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dt5ghcls7e",
+      "Integrity": "j802RfbYqojk61p4LJp1wUscay0fRqk3dEKfjUAnVaA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\kendo-font-icons.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-theme-bootstrap/all.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xrlzjojp7",
+      "Integrity": "l+/nGyupCb4PnYrBWkuEpoEsCNqMWX2A+IC4ZN5ZkxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\all.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-theme-default/all.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jz3dsqjufu",
+      "Integrity": "b0l8o+TleU1XlEMnCj4nVpVWvHg3BG0oW3szgs353F4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\all.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\default-ocean-blue.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-theme-default/default-ocean-blue.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xkuwcq8taw",
+      "Integrity": "L6lgeElksLikHjdU71UvJNZY+eXIlAEGaLhSmDavPT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\default-ocean-blue.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-fluent\\all.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-theme-fluent/all.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i3a8i78b9e",
+      "Integrity": "HvNDOWbW/D9Y7nALkoKAHLuF9+psHPtpYhBOOf8imDI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-fluent\\all.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-material\\all.css",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "css/kendo-theme-material/all.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ndiseivl1y",
+      "Integrity": "C9Jx/0nnVjwZyZUAmiZMZYkJq4BkQkTF83xsGhqMqKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-material\\all.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\images\\blazor.png",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "images/blazor.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8x6836y1ry",
+      "Integrity": "9A+Mrm6jQwaOnmz6DePWC2DkGgXXTQUs9M/sxVefjs4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\images\\blazor.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\js\\telerik-blazor.js",
+      "SourceId": "Telerik.UI.for.Blazor.Trial",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
+      "RelativePath": "js/telerik-blazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r7kr9ak1et",
+      "Integrity": "FzBSGQ/mJ1RLPJBIy2mtN3KfNtTtaJJPt14wGJ2zyU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\js\\telerik-blazor.js"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Common.styles.css",
+      "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+      "RelativePath": "TKS_Thuc_Tap_V11_Web_Common#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "yo32ulpgx1",
+      "Integrity": "MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Common.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+      "RelativePath": "TKS_Thuc_Tap_V11_Web_Common#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "yo32ulpgx1",
+      "Integrity": "MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Append.Blazor.Printing/scripts.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\append.blazor.printing\\6.2.0\\staticwebassets\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dGNiW0qZr/8nUsKJRD1AmpoecUKsBsSzCgvkxjHdfLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jun 2022 15:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dGNiW0qZr/8nUsKJRD1AmpoecUKsBsSzCgvkxjHdfLM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.ReportViewer.Blazor.Trial/interop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.reportviewer.blazor.trial\\19.0.25.211\\staticwebassets\\interop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oN0k6nVE0BjyyDcyU7VeI9Tw+2KQJhjvFVna7ECXNlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 20:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oN0k6nVE0BjyyDcyU7VeI9Tw+2KQJhjvFVna7ECXNlo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/font-icons.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\font-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sovZC/Kd6KjLhtgnM/a/AnD79hdMcruR7be/I7/mfyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sovZC/Kd6KjLhtgnM/a/AnD79hdMcruR7be/I7/mfyQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/font-icons.est2hspdhp.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\font-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sovZC/Kd6KjLhtgnM/a/AnD79hdMcruR7be/I7/mfyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "est2hspdhp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sovZC/Kd6KjLhtgnM/a/AnD79hdMcruR7be/I7/mfyQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/font-icons.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/kendo-font-icons.dt5ghcls7e.ttf",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\kendo-font-icons.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j802RfbYqojk61p4LJp1wUscay0fRqk3dEKfjUAnVaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dt5ghcls7e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j802RfbYqojk61p4LJp1wUscay0fRqk3dEKfjUAnVaA="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/kendo-font-icons.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-font-icons/kendo-font-icons.ttf",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-font-icons\\kendo-font-icons.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j802RfbYqojk61p4LJp1wUscay0fRqk3dEKfjUAnVaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j802RfbYqojk61p4LJp1wUscay0fRqk3dEKfjUAnVaA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-bootstrap/all.3xrlzjojp7.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "710666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+/nGyupCb4PnYrBWkuEpoEsCNqMWX2A+IC4ZN5ZkxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xrlzjojp7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+/nGyupCb4PnYrBWkuEpoEsCNqMWX2A+IC4ZN5ZkxI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-bootstrap/all.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-bootstrap/all.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "710666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+/nGyupCb4PnYrBWkuEpoEsCNqMWX2A+IC4ZN5ZkxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+/nGyupCb4PnYrBWkuEpoEsCNqMWX2A+IC4ZN5ZkxI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/all.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b0l8o+TleU1XlEMnCj4nVpVWvHg3BG0oW3szgs353F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b0l8o+TleU1XlEMnCj4nVpVWvHg3BG0oW3szgs353F4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/all.jz3dsqjufu.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b0l8o+TleU1XlEMnCj4nVpVWvHg3BG0oW3szgs353F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jz3dsqjufu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b0l8o+TleU1XlEMnCj4nVpVWvHg3BG0oW3szgs353F4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/all.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/default-ocean-blue.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\default-ocean-blue.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "697717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L6lgeElksLikHjdU71UvJNZY+eXIlAEGaLhSmDavPT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L6lgeElksLikHjdU71UvJNZY+eXIlAEGaLhSmDavPT8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/default-ocean-blue.xkuwcq8taw.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-default\\default-ocean-blue.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "697717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L6lgeElksLikHjdU71UvJNZY+eXIlAEGaLhSmDavPT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkuwcq8taw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L6lgeElksLikHjdU71UvJNZY+eXIlAEGaLhSmDavPT8="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-default/default-ocean-blue.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-fluent/all.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-fluent\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HvNDOWbW/D9Y7nALkoKAHLuF9+psHPtpYhBOOf8imDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HvNDOWbW/D9Y7nALkoKAHLuF9+psHPtpYhBOOf8imDI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-fluent/all.i3a8i78b9e.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-fluent\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HvNDOWbW/D9Y7nALkoKAHLuF9+psHPtpYhBOOf8imDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i3a8i78b9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HvNDOWbW/D9Y7nALkoKAHLuF9+psHPtpYhBOOf8imDI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-fluent/all.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-material/all.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-material\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "768116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9Jx/0nnVjwZyZUAmiZMZYkJq4BkQkTF83xsGhqMqKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9Jx/0nnVjwZyZUAmiZMZYkJq4BkQkTF83xsGhqMqKk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-material/all.ndiseivl1y.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\css\\kendo-theme-material\\all.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "768116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9Jx/0nnVjwZyZUAmiZMZYkJq4BkQkTF83xsGhqMqKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:46:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ndiseivl1y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9Jx/0nnVjwZyZUAmiZMZYkJq4BkQkTF83xsGhqMqKk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/css/kendo-theme-material/all.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/images/blazor.8x6836y1ry.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\images\\blazor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+Mrm6jQwaOnmz6DePWC2DkGgXXTQUs9M/sxVefjs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:39:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8x6836y1ry"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A+Mrm6jQwaOnmz6DePWC2DkGgXXTQUs9M/sxVefjs4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/images/blazor.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/images/blazor.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\images\\blazor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+Mrm6jQwaOnmz6DePWC2DkGgXXTQUs9M/sxVefjs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:39:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A+Mrm6jQwaOnmz6DePWC2DkGgXXTQUs9M/sxVefjs4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/js/telerik-blazor.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\js\\telerik-blazor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4252637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FzBSGQ/mJ1RLPJBIy2mtN3KfNtTtaJJPt14wGJ2zyU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:48:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FzBSGQ/mJ1RLPJBIy2mtN3KfNtTtaJJPt14wGJ2zyU8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Telerik.UI.for.Blazor.Trial/js/telerik-blazor.r7kr9ak1et.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\js\\telerik-blazor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4252637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FzBSGQ/mJ1RLPJBIy2mtN3KfNtTtaJJPt14wGJ2zyU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 07:48:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r7kr9ak1et"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FzBSGQ/mJ1RLPJBIy2mtN3KfNtTtaJJPt14wGJ2zyU8="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Telerik.UI.for.Blazor.Trial/js/telerik-blazor.js"
+        }
+      ]
+    },
+    {
+      "Route": "background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "background.x2rx4ajns0.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "label",
+          "Value": "background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 03:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac="
+        }
+      ]
+    },
+    {
+      "Route": "TKS_Thuc_Tap_V11_Web_Common.styles.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Common.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac="
+        }
+      ]
+    },
+    {
+      "Route": "TKS_Thuc_Tap_V11_Web_Common.yo32ulpgx1.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yo32ulpgx1"
+        },
+        {
+          "Name": "label",
+          "Value": "TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac="
+        }
+      ]
+    },
+    {
+      "Route": "TKS_Thuc_Tap_V11_Web_Common.yo32ulpgx1.styles.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Common.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yo32ulpgx1"
+        },
+        {
+          "Name": "label",
+          "Value": "TKS_Thuc_Tap_V11_Web_Common.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac="
+        }
+      ]
+    }
+  ]
+}

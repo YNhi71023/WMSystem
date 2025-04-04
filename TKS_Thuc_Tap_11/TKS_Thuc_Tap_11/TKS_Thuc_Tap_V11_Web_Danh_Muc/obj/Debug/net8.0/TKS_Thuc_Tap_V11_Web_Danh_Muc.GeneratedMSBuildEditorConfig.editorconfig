@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = TKS_Thuc_Tap_V11_Web_Danh_Muc
+build_property.RootNamespace = TKS_Thuc_Tap_V11_Web_Danh_Muc
+build_property.ProjectDir = C:\Users\nguyendangynhi\Downloads\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Danh_Muc\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nguyendangynhi\Downloads\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Danh_Muc
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Chu_Hang.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ2h1X0hhbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_1_Chu_Hang_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18xX0NodV9IYW5nX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_2_Chu_Hang_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18yX0NodV9IYW5nX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2003_3_Chu_Hang_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwM18zX0NodV9IYW5nX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2004_1_Don_Vi_Tinh_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNF8xX0Rvbl9WaV9UaW5oX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2004_2_Don_Vi_Tinh_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNF8yX0Rvbl9WaV9UaW5oX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2004_3_Don_Vi_Tinh_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNF8zX0Rvbl9WaV9UaW5oX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2005_1_Loai_San_Pham_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNV8xX0xvYWlfU2FuX1BoYW1fTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2005_2_Loai_San_Pham_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNV8yX0xvYWlfU2FuX1BoYW1fSW5mby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2005_3_Loai_San_Pham_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNV8zX0xvYWlfU2FuX1BoYW1fRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2006_1_San_Pham_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNl8xX1Nhbl9QaGFtX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2006_2_San_Pham_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNl8yX1Nhbl9QaGFtX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2006_3_San_Pham_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwNl8zX1Nhbl9QaGFtX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2007_1_NCC_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwN18xX05DQ19MaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2007_2_NCC_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwN18yX05DQ19JbmZvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2007_3_NCC_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwN18zX05DQ19FZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2008_1_Kho_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwOF8xX0tob19MaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2008_2_Kho_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwOF8yX0tob19JbmZvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2008_3_Kho_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwOF8zX0tob19FZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2009_1_Kho_User_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwOV8xX0tob19Vc2VyX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F2009_3_Kho_User_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMjAwOV8zX0tob19Vc2VyX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F3001_1_Xuat_Kho_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMzAwMV8xX1h1YXRfS2hvX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F3001_2_Xuat_Kho_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMzAwMV8yX1h1YXRfS2hvX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F3001_3_Xuat_Kho_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGMzAwMV8zX1h1YXRfS2hvX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F4001_1_Ton_Kho_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGNDAwMV8xX1Rvbl9LaG9fTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F7001_1_Nhap_Kho_List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGNzAwMV8xX05oYXBfS2hvX0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F7001_2_Nhap_Kho_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGNzAwMV8yX05oYXBfS2hvX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Components/F7001_3_Nhap_Kho_Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcQ29tcG9uZW50c1xGNzAwMV8zX05oYXBfS2hvX0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Don_Vi_Tinh.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcRG9uX1ZpX1RpbmgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Kho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcS2hvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Kho_User.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcS2hvX1VzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Loai_San_Pham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcTG9haV9TYW5fUGhhbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/NCC.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcTkNDLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Nhap_Kho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcTmhhcF9LaG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/San_Pham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcU2FuX1BoYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Ton_Kho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcVG9uX0toby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/Pages/Danh_Muc/Xuat_Kho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaF9NdWNcWHVhdF9LaG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Danh_Muc/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

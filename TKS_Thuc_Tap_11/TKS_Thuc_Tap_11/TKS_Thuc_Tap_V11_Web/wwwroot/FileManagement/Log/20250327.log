@@ -1,0 +1,5 @@
+|Trace|CSqlHelper|FillDataTable|27/03/2025|10:45:22|Store: FQ_508_CNA_sp_sel_List_For_Cache execute 1.38223
+|Trace|CSqlHelper|FillDataTable|27/03/2025|10:52:36|Store: FQ_501_AS_sp_sel_List_For_Cache execute 1.22236
+|Trace|CSqlHelper|FillDataTable|27/03/2025|11:44:50|Store: FQ_523_NP_sp_sel_List_For_Cache execute 1.782228
+|Trace|CSqlHelper|FillDataTable|27/03/2025|11:44:52|Store: FQ_516_GUG_sp_sel_List_For_Cache execute 1.24485
+|Trace|CSqlHelper|FillDataTable|27/03/2025|12:00:42|Store: FQ_508_CNA_sp_sel_List_For_Cache execute 1.021385

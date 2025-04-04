@@ -1,0 +1,302 @@
+﻿@inherits FBase;
+
+<div class="modal fade show" tabindex="-1" role="dialog" aria-hidden="true" style="display: block; padding-left: 0px; background-color: rgba(10, 10, 10, .8);">
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="modal-content" style="width:1500px">
+            <div class="modal-header bg-light">
+                @if (r_iAuto_ID != 0)
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Hiệu chỉnh")</h5>
+                }
+                else
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Thêm mới")</h5>
+                }
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@(()=> Modal_Cancel())">
+                </button>
+            </div>
+
+            @((MarkupString)r_strError)
+
+            <EditForm Model="@m_objData">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Số phiếu nhập kho"):</label>
+                                    <input @ref="txtFocus" @bind="@m_objData.So_Phieu_Nhap_Kho" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Kho"):</label>
+                                    <TelerikMultiColumnComboBox @bind-Value="@m_objData.Kho_ID"
+                                                                ScrollMode="@DropDownScrollMode.Virtual"
+                                                                Data="@m_arrData"
+                                                                ValueField="@(nameof(CDM_Kho.Auto_ID))"
+                                                                TextField="@(nameof(CDM_Kho.Ten_Kho))"
+                                                                Width="100%"
+                                                                PageSize="10"
+                                                                ItemHeight="35"
+                                                                Filterable="true"
+                                                                FilterOperator="@StringFilterOperator.Contains"
+                                                                ListHeight="260px">
+                                        <MultiColumnComboBoxColumns>
+                                            <MultiColumnComboBoxColumn Field="@nameof(CDM_Kho.Ten_Kho)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                        </MultiColumnComboBoxColumns>
+                                    </TelerikMultiColumnComboBox>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("NCC"):</label>
+                                    <TelerikMultiColumnComboBox @bind-Value="@m_objData.NCC_ID"
+                                                                ScrollMode="@DropDownScrollMode.Virtual"
+                                                                Data="@m_arrDataLSP"
+                                                                ValueField="@(nameof(CDM_NCC.Auto_ID))"
+                                                                TextField="@(nameof(CDM_NCC.Ten_NCC))"
+                                                                Width="100%"
+                                                                PageSize="10"
+                                                                ItemHeight="35"
+                                                                Filterable="true"
+                                                                FilterOperator="@StringFilterOperator.Contains"
+                                                                ListHeight="260px">
+                                        <MultiColumnComboBoxColumns>
+                                            <MultiColumnComboBoxColumn Field="@nameof(CDM_NCC.Ten_NCC)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                        </MultiColumnComboBoxColumns>
+                                    </TelerikMultiColumnComboBox>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Ngày nhập kho"):</label>
+                                    <TelerikDateTimePicker Min="@Min" Max="@Max" @bind-Value="@m_objData.Ngay_Nhap_Kho"
+                                                           Format="dd MMM yyyy HH:mm:ss" Width="250px">
+                                    </TelerikDateTimePicker>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Ghi chú"):</label>
+                                    <input @bind="@m_objData.Ghi_Chu" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                      
+                    
+                        <div class="col-lg-4">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Sản phẩm"):</label>
+                                    <TelerikMultiColumnComboBox @bind-Value="@m_objDataPN.San_Pham_ID"
+                                                                ScrollMode="@DropDownScrollMode.Virtual"
+                                                                Data="@m_arrDataSP"
+                                                                ValueField="@(nameof(CDM_San_Pham.Auto_ID))"
+                                                                TextField="@(nameof(CDM_San_Pham.Ten_San_Pham))"
+                                                                Width="100%"
+                                                                PageSize="10"
+                                                                ItemHeight="35"
+                                                                Filterable="true"
+                                                                FilterOperator="@StringFilterOperator.Contains"
+                                                                ListHeight="260px">
+                                        <MultiColumnComboBoxColumns>
+                                            <MultiColumnComboBoxColumn Field="@nameof(CDM_San_Pham.Ten_San_Pham)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                        </MultiColumnComboBoxColumns>
+                                    </TelerikMultiColumnComboBox>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Số lượng nhập"):</label>
+                                    <input @ref="txtFocus" @bind="@m_objDataPN.SL_Nhap" type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Đơn giá nhập"):</label>
+                                    <input @ref="txtFocus" @bind="@m_objDataPN.Don_Gia_Nhap" type="number" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4" style="width:400px">
+                            <TelerikGrid Data="@v_arrData"
+                                          Resizable="true" 
+                                          Reorderable="true" 
+                                         @ref="@grdData">
+                                <GridColumns>
+                                    <GridColumn Field="San_Pham_ID" Title="Sản phẩm" Width="100px"/>
+                                    <GridColumn Field="SL_Nhap" Title="Số lượng nhập" Width="100px"/>
+                                    <GridColumn Field="Don_Gia_Nhap" Title="Đơn giá nhập" Width="100px"/>
+                                </GridColumns>
+                            </TelerikGrid>
+                        </div>
+                    </div>
+
+                </div>
+            </EditForm>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick="@Save_Data" style="margin-right: 37px;">@Get_Language_Data_Field("Lưu Thay Đổi")</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    public List<CDM_Phieu_Nhap_Kho> v_arrData = new();
+    TelerikGrid<CDM_Phieu_Nhap_Kho> grdData = new();
+    private CDM_Nhap_Kho m_objData = new();
+    private CDM_Phieu_Nhap_Kho m_objDataPN = new();
+    private List<IBrowserFile> loadedFiles = new();
+    private bool m_bIs_Update_File = false;
+    List<CDM_Kho> m_arrData = new();
+    List<CDM_NCC> m_arrDataLSP = new();
+    List<CDM_San_Pham> m_arrDataSP = new();
+    private DateTime Min = new DateTime(2000, 1, 1);
+    private DateTime Max = new DateTime(2100, 12, 31);
+
+    protected override void Init_Data()
+    {
+        m_arrData.Clear();
+        m_arrData = CCache_Kho.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+        m_arrDataLSP = CCache_NCC.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+        m_arrDataSP = CCache_San_Pham.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+    }
+
+    protected override void Load_Data()
+    {
+        Format_Grid(grdData);
+        //Nhập kho
+        CDM_Nhap_Kho_Controller v_objCtrData = new();
+        m_objData = v_objCtrData.FQ_540_NK_sp_sel_Get_By_ID(r_iAuto_ID);
+        
+        if (m_objData == null)
+            m_objData = new CDM_Nhap_Kho();
+        else
+        {
+            r_bUpdate = true;
+
+            // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+            CDM_Nhap_Kho v_objClone = new();
+            CUtility.Clone_Entity(m_objData, v_objClone);
+            r_objSource = v_objClone;
+            // End tracking
+        }
+
+        //Phiếu chi tiết nhập kho
+        CDM_Phieu_Nhap_Kho_Controller v_objCtrDataPN = new();
+        m_objDataPN = v_objCtrDataPN.FQ_542_NKR_sp_sel_Get_By_ID(r_iAuto_ID);
+        if (m_objDataPN == null)
+            m_objDataPN = new CDM_Phieu_Nhap_Kho();
+        else
+        {
+            r_bUpdate = true;
+
+            // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+            CDM_Phieu_Nhap_Kho v_objClone = new();
+            CUtility.Clone_Entity(m_objData, v_objClone);
+            r_objSource = v_objClone;
+            // End tracking
+        }
+    }
+    protected override void Add_Data()
+    {
+        CDM_Nhap_Kho_Controller v_objCtrData = new();
+        CDM_Phieu_Nhap_Kho_Controller v_objCtrDataPN = new();
+        #region Save File
+        Check_Data();
+
+        #endregion
+
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_540_NK_sp_ins_Insert(m_objData);
+
+        m_objDataPN.Last_Updated_By = r_strActive_User_Name;
+        m_objDataPN.Last_Updated_By_Function = r_strActive_Function_Code;
+        m_objDataPN.Auto_ID = r_iAuto_ID = v_objCtrDataPN.FQ_542_NKR_sp_ins_Insert(m_objDataPN);
+        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+        r_strAdd_Key = m_objData.So_Phieu_Nhap_Kho;
+        // End tracking
+
+        CCache_Nhap_Kho.Add_Data(m_objData);
+        CCache_Phieu_Nhap_Kho.Add_Data(m_objDataPN);
+
+    }
+
+    protected override void Update_Data()
+    {
+        CDM_Nhap_Kho_Controller v_objCtrData = new();
+        CDM_Phieu_Nhap_Kho_Controller v_objCtrDataPN = new();
+        Check_Data();
+
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        v_objCtrData.FQ_540_NK_sp_upd_Update(m_objData);
+        
+
+        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+        CDM_Nhap_Kho v_objClone = new();
+        CUtility.Clone_Entity(m_objData, v_objClone);
+        r_objDes = v_objClone;
+        // End tracking
+
+        CCache_Nhap_Kho.Update_Data(m_objData);
+    }
+
+    private void OnSelectHandler(InputFileChangeEventArgs e)
+    {
+        r_strError = "";
+        loadedFiles.Clear();
+        try
+        {
+            foreach (var file in e.GetMultipleFiles())
+            {
+                if (file.Size > 1024000)
+                    throw new Exception("File phải nhỏ hơn 1MB.");
+
+                loadedFiles.Add(file);
+            }
+        }
+        catch (Exception ex)
+        {
+            loadedFiles.Clear();
+            throw new Exception(ex.Message);
+        }
+    }
+
+    private void Check_Data()
+    {
+        r_strError = "";
+        try
+        {
+            if (loadedFiles.Count > 0)
+            {
+                IBrowserFile v_objFile = loadedFiles[0];
+
+                string v_strTextExl = Path.GetExtension(v_objFile.Name).ToLower();
+
+                if (!CUtility.Check_File_Type_Accept_Upload(v_strTextExl))
+                    throw new Exception("File không đúng định dạng");
+
+                string v_strFile_Name_Full = Path.GetFileName(v_objFile.Name);
+                r_objImport_Excel.Path_File = CUtility.Fix_Handler_File_Name(v_strFile_Name_Full);
+
+                m_bIs_Update_File = true;
+            }
+            //else
+            //{
+            //	r_objImport_Excel.Path_File = "";
+            //	if (r_bUpdate == false)
+            //		throw new Exception("File không được trống");
+            //}
+
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message);
+        }
+    }
+}

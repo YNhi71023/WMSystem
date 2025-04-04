@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TKS_Thuc_Tap_V11_Web_Danh_Muc.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TKS_Thuc_Tap_V11_Web_Danh_Muc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TKS_Thuc_Tap_V11_Web_Danh_Muc.props",
+      "PackagePath": "build\\TKS_Thuc_Tap_V11_Web_Danh_Muc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TKS_Thuc_Tap_V11_Web_Danh_Muc.props",
+      "PackagePath": "buildMultiTargeting\\TKS_Thuc_Tap_V11_Web_Danh_Muc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TKS_Thuc_Tap_V11_Web_Danh_Muc.props",
+      "PackagePath": "buildTransitive\\TKS_Thuc_Tap_V11_Web_Danh_Muc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

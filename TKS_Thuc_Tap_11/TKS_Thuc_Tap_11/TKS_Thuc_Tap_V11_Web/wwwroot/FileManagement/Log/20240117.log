@@ -1,0 +1,7 @@
+|Trace|CSqlHelper|FillDataTable|17/01/2024|04:03:34|Store: FQ_507_CN_sp_sel_Get_By_ID execute 1.177482
+|Trace|CSqlHelper|ExecuteNonQuery|17/01/2024|04:03:51|Store: FQ_507_CN_sp_del_Delete_By_ID execute 1.180741
+|Trace|CSqlHelper|ExecuteNonQuery|17/01/2024|04:04:17|Store: FQ_507_CN_sp_del_Delete_By_ID execute 1.235016
+|Trace|CSqlHelper|FillDataTable|17/01/2024|04:04:40|Store: FQ_507_CN_sp_sel_List_By_Nhom_Chuc_Nang_A_Parent_Func_ID execute 4.244701
+|Trace|CSqlHelper|FillDataTable|17/01/2024|04:05:02|Store: FQ_507_CN_sp_sel_List_By_Nhom_Chuc_Nang_A_Parent_Func_ID execute 1.193536
+|Trace|CSqlHelper|ExecuteScalar|17/01/2024|04:05:22|Store: FQ_424_NKTCCN_sp_ins_Insert execute 1.191089
+|Trace|CSqlHelper|FillDataTable|17/01/2024|04:09:34|Store: FQ_525_NTV_sp_sel_List_By_Created execute 1.209223

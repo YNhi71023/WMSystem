@@ -1,0 +1,258 @@
+﻿@inherits FBase;
+
+<div class="modal fade show" tabindex="-1" role="dialog" aria-hidden="true" style="display: block; padding-left: 0px; background-color: rgba(10, 10, 10, .8);">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                @if (r_iAuto_ID != 0)
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Hiệu chỉnh")</h5>
+                }
+                else
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Thêm mới")</h5>
+                }
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@(()=> Modal_Cancel())">
+                </button>
+            </div>
+
+            @((MarkupString)r_strError)
+
+            <EditForm Model="@m_objData">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Mã sản phẩm"):</label>
+                                    <input @ref="txtFocus" @bind="@m_objData.Ma_San_Pham" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Tên sản phẩm"):</label>
+                                    <input @ref="txtFocus" @bind="@m_objData.Ten_San_Pham" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Đơn vị tính"):</label>
+                                    <TelerikMultiColumnComboBox @bind-Value="@m_objData.Don_Vi_Tinh_ID"
+                                                                ScrollMode="@DropDownScrollMode.Virtual"
+                                                                Data="@m_arrData"
+                                                                ValueField="@(nameof(CDM_Don_Vi_Tinh.Auto_ID))"
+                                                                TextField="@(nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh))"
+                                                                Width="100%"
+                                                                PageSize="10"
+                                                                ItemHeight="35"
+                                                                Filterable="true"
+                                                                FilterOperator="@StringFilterOperator.Contains"
+                                                                ListHeight="260px">
+                                        <MultiColumnComboBoxColumns>
+                                           <MultiColumnComboBoxColumn Field="@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                        </MultiColumnComboBoxColumns>
+                                    </TelerikMultiColumnComboBox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Loại sản phẩm"):</label>
+                                    <TelerikMultiColumnComboBox @bind-Value="@m_objData.Loai_San_Pham_ID"
+                                                                ScrollMode="@DropDownScrollMode.Virtual"
+                                                                Data="@m_arrDataLSP"
+                                                                ValueField="@(nameof(CDM_Loai_San_Pham.Auto_ID))"
+                                                                TextField="@(nameof(CDM_Loai_San_Pham.Ten_LSP))"
+                                                                Width="100%"
+                                                                PageSize="10"
+                                                                ItemHeight="35"
+                                                                Filterable="true"
+                                                                FilterOperator="@StringFilterOperator.Contains"
+                                                                ListHeight="260px">
+                                        <MultiColumnComboBoxColumns>
+                                            <MultiColumnComboBoxColumn Field="@nameof(CDM_Loai_San_Pham.Ten_LSP)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                        </MultiColumnComboBoxColumns>
+                                    </TelerikMultiColumnComboBox>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+
+                            <div class="row mb-3">
+                                <div class="col-lg-11">
+                                    <label class="form-label">@Get_Language_Data_Field("Ghi chú"):</label>
+                                    <input @bind="@m_objData.Ghi_Chu" class="form-control">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </EditForm>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick="@Save_Data" style="margin-right: 37px;">@Get_Language_Data_Field("Lưu Thay Đổi")</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private CDM_San_Pham m_objData = new();
+    private List<IBrowserFile> loadedFiles = new();
+    private bool m_bIs_Update_File = false;
+    List<CDM_Don_Vi_Tinh> m_arrData = new();
+    List<CDM_Loai_San_Pham> m_arrDataLSP = new();
+
+
+
+    protected override void Init_Data()
+    {
+        m_arrData.Clear();
+        m_arrData = CCache_Don_Vi_Tinh.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+        m_arrDataLSP = CCache_Loai_San_Pham.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+    }
+
+    protected override void Load_Data()
+    {
+        CDM_San_Pham_Controller v_objCtrData = new();
+        m_objData = v_objCtrData.FQ_537_SP_sp_sel_Get_By_ID(r_iAuto_ID);
+
+        if (m_objData == null)
+            m_objData = new CDM_San_Pham();
+        else
+        {
+            r_bUpdate = true;
+
+            // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+            CDM_San_Pham v_objClone = new();
+            CUtility.Clone_Entity(m_objData, v_objClone);
+            r_objSource = v_objClone;
+            // End tracking
+        }
+    }
+
+    protected override void Add_Data()
+    {
+        CDM_San_Pham_Controller v_objCtrData = new();
+
+        #region Save File
+        //Check_Data();
+        // if (m_bIs_Update_File)
+        // {
+        //     m_objData.Image_URL = CCommonFunction.Save_Upload_File(loadedFiles, r_objImport_Excel.Path_File);
+        //     string v_strTextExl = Path.GetExtension(m_objData.Image_URL).ToLower();
+        //     string v_strFile_Name_Thumb = m_objData.Image_URL.Substring(0, m_objData.Image_URL.Length - v_strTextExl.Length) + "_Thumb" + v_strTextExl;
+        //     m_objData.Image_URL_Thumb = m_objData.Image_URL;
+        // }
+
+        #endregion
+
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_537_SP_sp_ins_Insert(m_objData);
+
+        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+        r_strAdd_Key = m_objData.Ma_San_Pham;
+        // End tracking
+
+        CCache_San_Pham.Add_Data(m_objData);
+
+    }
+
+    protected override void Update_Data()
+    {
+        CDM_San_Pham_Controller v_objCtrData = new();
+        //Check_Data();
+
+        // if (m_bIs_Update_File)
+        // {
+        //     m_objData.Image_URL = CCommonFunction.Save_Upload_File(loadedFiles, r_objImport_Excel.Path_File);
+        //     string v_strTextExl = Path.GetExtension(m_objData.Image_URL).ToLower();
+        //     string v_strFile_Name_Thumb = m_objData.Image_URL.Substring(0, m_objData.Image_URL.Length - v_strTextExl.Length) + "_Thumb" + v_strTextExl;
+
+        //     byte[] v_arrBytes = Task.Run<byte[]>(() => Get_Byte_Array(loadedFiles)).Result;
+
+        //     byte[] v_arrBytes_Thumb = File.ReadAllBytes(webHostEnviroment.WebRootPath + "\\" + m_objData.Image_URL);
+
+        //     File.WriteAllBytes(v_strFile_Name_Thumb, v_arrBytes_Thumb);
+
+        //     m_objData.Image_URL_Thumb = v_strFile_Name_Thumb;
+        //     m_objData.Image_URL_Thumb = m_objData.Image_URL;
+        // }
+
+        // CDM_San_Pham_Controller v_objCtrData = new();
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        v_objCtrData.FQ_537_SP_sp_upd_Update(m_objData);
+
+        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
+        CDM_San_Pham v_objClone = new();
+        CUtility.Clone_Entity(m_objData, v_objClone);
+        r_objDes = v_objClone;
+        // End tracking
+
+        CCache_San_Pham.Update_Data(m_objData);
+    }
+
+    // private void OnSelectHandler(InputFileChangeEventArgs e)
+    // {
+    //     r_strError = "";
+    //     loadedFiles.Clear();
+    //     try
+    //     {
+    //         foreach (var file in e.GetMultipleFiles())
+    //         {
+    //             if (file.Size > 1024000)
+    //                 throw new Exception("File phải nhỏ hơn 1MB.");
+
+    //             loadedFiles.Add(file);
+    //         }
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         loadedFiles.Clear();
+    //         throw new Exception(ex.Message);
+    //     }
+    // }
+
+    // private void Check_Data()
+    // {
+    //     r_strError = "";
+    //     try
+    //     {
+    //         if (loadedFiles.Count > 0)
+    //         {
+    //             IBrowserFile v_objFile = loadedFiles[0];
+
+    //             string v_strTextExl = Path.GetExtension(v_objFile.Name).ToLower();
+
+    //             if (!CUtility.Check_File_Type_Accept_Upload(v_strTextExl))
+    //                 throw new Exception("File không đúng định dạng");
+
+    //             string v_strFile_Name_Full = Path.GetFileName(v_objFile.Name);
+    //             r_objImport_Excel.Path_File = CUtility.Fix_Handler_File_Name(v_strFile_Name_Full);
+
+    //             m_bIs_Update_File = true;
+    //         }
+    //         else
+    //         {
+    //         	r_objImport_Excel.Path_File = "";
+    //         	if (r_bUpdate == false)
+    //         		throw new Exception("File không được trống");
+    //         }
+
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         throw new Exception(ex.Message);
+    //     }
+    // }
+}

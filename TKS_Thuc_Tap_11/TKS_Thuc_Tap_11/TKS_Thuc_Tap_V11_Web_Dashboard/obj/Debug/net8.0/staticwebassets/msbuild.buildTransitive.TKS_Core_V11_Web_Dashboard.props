@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TKS_Core_V11_Web_Dashboard.props" />
+</Project>
