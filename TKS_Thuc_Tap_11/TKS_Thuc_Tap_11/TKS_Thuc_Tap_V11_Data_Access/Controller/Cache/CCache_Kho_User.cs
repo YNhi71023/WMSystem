@@ -23,7 +23,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Controller.Cache
             Dic_Data_ID.Clear();
 
             CDM_Kho_User_Controller v_objCtrData = new CDM_Kho_User_Controller();
-            List<CDM_Kho_User> v_arrTemp_Data = v_objCtrData.FQ_544_KU_sp_sel_List_For_Cache();
+            List<CDM_Kho_User> v_arrTemp_Data = v_objCtrData.FQ_117_KU_sp_sel_List_For_Cache();
 
             foreach (CDM_Kho_User v_objData in v_arrTemp_Data)
                 Add_Data(v_objData);

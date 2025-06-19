@@ -116,7 +116,7 @@
         CCache_Chu_Hang.Delete_Data(p_iAuto_ID);
     }
 
-    protected override void Import_Excel_Entry(CExcel_Controller v_objCtrlExcel, ref int p_iCount_Success, ref int p_iCount_Error)
+    protected override void Import_Excel_Entry(CExcel_Controller p_objCtrlExcel, ref int p_iCount_Success, ref int p_iCount_Error)
     {
         CDM_Chu_Hang_Controller v_objCtrData = new();
 
@@ -125,7 +125,7 @@
         SqlTransaction v_trans = null;
         try
         {
-            DataTable v_dt = v_objCtrlExcel.List_Range_Value_To_End(0, "A2", "I");
+            DataTable v_dt = p_objCtrlExcel.List_Range_Value_To_End(0, "A2", "I");
 
             // Loại mấy dòng trống
             for (int v_i = v_dt.Rows.Count - 1; v_i >= 0; v_i--)

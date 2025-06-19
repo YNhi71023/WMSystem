@@ -1,0 +1,171 @@
+﻿@inherits FBase_Edit;
+<div class="modal fade show" tabindex="-1" role="dialog" aria-hidden="true" style="display: block; padding-left: 0px; background-color: rgba(10, 10, 10, .8);">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                @if (p_iPhieu_Nhap_Kho_ID != 0)
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Hiệu chỉnh")</h5>
+                }
+                else
+                {
+                    <h5 class="modal-title">@Get_Language_Data_Field("Thêm mới")</h5>
+                }
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@(()=> Modal_Cancel())">
+                </button>
+            </div>
+
+            @(
+                (MarkupString)r_strError
+                )
+
+            <EditForm Model="@m_objData">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row mb-1">
+                                <label class="form-label">@Get_Language_Data_Field("Sản phẩm"):</label>
+                                <TelerikMultiColumnComboBox @bind-Value="@m_objData.San_Pham_ID"
+                                                            ScrollMode="@DropDownScrollMode.Virtual"
+                                                            Data="@m_arrData_San_Pham"
+                                                            ValueField="@(nameof(CDM_San_Pham.Auto_ID))"
+                                                            TextField="@(nameof(CDM_San_Pham.Ten_San_Pham))"
+                                                            Width="100%"
+                                                            PageSize="10"
+                                                            ItemHeight="35"
+                                                            Filterable="true"
+                                                            FilterOperator="@StringFilterOperator.Contains"
+                                                            ListHeight="260px">
+                                    <MultiColumnComboBoxColumns>
+                                        <MultiColumnComboBoxColumn Field="@nameof(CDM_San_Pham.Ten_San_Pham)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
+                                    </MultiColumnComboBoxColumns>
+                                </TelerikMultiColumnComboBox>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-lg-4 col-form-label">
+                                    <label class="form-label">@Get_Language_Data_Field("Số lượng nhập"):</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input @bind="@m_objData.SL_Nhap" class="form-control">
+
+                                </div>
+                            </div>
+                          
+                            <div class="row mb-1">
+                                <div class="col-lg-4 col-form-label">
+                                    <label class="form-label">@Get_Language_Data_Field("Đơn giá nhập"):</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input @bind="@m_objData.Don_Gia_Nhap" class="form-control">
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </EditForm>
+
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick="@Cap_Nhat_Data">@Get_Language_Data_Field("Lưu Thay Đổi")</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private CDM_Phieu_Nhap_Kho m_objData = new();
+    private CDM_Phieu_Nhap_Kho m_objEdit = new();
+    List<CDM_San_Pham> m_arrData_San_Pham = new();
+    [Parameter]
+    public List<CDM_Phieu_Nhap_Kho> p_arrPhieu_Nhap_Kho { get; set; }
+
+    [Parameter]
+    public long p_iNhap_Kho_ID { get; set; }
+    [Parameter]
+    public long p_iPhieu_Nhap_Kho_ID { get; set; }
+
+    protected override void Init_Data()
+    {
+        m_arrData_San_Pham = CCache_San_Pham.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+    }
+    protected override void Load_Data()
+    {
+        if (p_iPhieu_Nhap_Kho_ID == 0)
+        {
+            m_objData = new CDM_Phieu_Nhap_Kho();
+            return;
+        }
+        else
+        {
+            m_objEdit = p_arrPhieu_Nhap_Kho.FirstOrDefault(it => it.Auto_ID == p_iPhieu_Nhap_Kho_ID);
+            CUtility.Clone_Entity(m_objEdit, m_objData);
+        }
+    }
+
+    private void CheckData()
+    {
+        StringBuilder sb = new();
+       
+        if (sb.ToString() != "")
+            throw new Exception(sb.ToString());
+
+    }
+
+    protected override void Add_Data()
+    {
+        p_iPhieu_Nhap_Kho_ID = CUtility.Create_Random_Number(6);
+        m_objData.Auto_ID = p_iPhieu_Nhap_Kho_ID;
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        p_arrPhieu_Nhap_Kho.Insert(0, m_objData);
+    }
+    protected override void Update_Data()
+    {
+        m_objData.Last_Updated_By = r_strActive_User_Name;
+        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+        //cập nhật lại object cho mảng
+        p_arrPhieu_Nhap_Kho.Remove(m_objEdit);
+        p_arrPhieu_Nhap_Kho.Insert(0, m_objData);
+    }
+
+    private async Task Cap_Nhat_Data()
+    {
+        r_objCallback_Event.Message_ID = (int)EModal_Result.Close_And_Reload_Data;
+
+        r_objLayout.Start_Loading();
+        r_strError = "";
+
+        try
+        {
+            CheckData();
+
+            if (p_iPhieu_Nhap_Kho_ID == 0)
+            {
+                Add_Data();
+            }
+            else
+            {
+                Update_Data();
+            }
+
+            await OnClose.InvokeAsync(r_objCallback_Event);
+        }
+
+        catch (Exception ex)
+        {
+            r_strError = CCommonFunction.Set_Error_MessageBox(ex.Message);
+            r_objCallback_Event.Message_ID = (int)EModal_Result.Exception;
+
+            if (txtFocus.Id != null)
+                await txtFocus.FocusAsync();
+        }
+
+        r_objLayout.Stop_Loading();
+    }
+
+
+}

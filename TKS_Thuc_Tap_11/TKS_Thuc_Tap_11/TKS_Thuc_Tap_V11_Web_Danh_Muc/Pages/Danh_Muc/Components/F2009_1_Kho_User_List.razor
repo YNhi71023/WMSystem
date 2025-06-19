@@ -111,7 +111,7 @@
     {
         Format_Grid(grdData);
         CDM_Kho_User_Controller v_objCtrData = new();
-        v_arrData = v_objCtrData.FQ_544_KU_sp_sel_List_By_Kho_ID(m_iKho_ID);
+        v_arrData = v_objCtrData.FQ_117_KU_sp_sel_List_By_Kho_ID(m_iKho_ID);
 
 
 
@@ -122,7 +122,7 @@
     protected override void Delete_Data_Entry(long p_iAuto_ID)
     {
        CDM_Kho_User_Controller v_objCtrData = new();
-        v_objCtrData.FQ_544_KU_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
+        v_objCtrData.FQ_117_KU_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
 
         CDM_Kho_User v_objData = CCache_Kho_User.Get_Data_By_ID(p_iAuto_ID);
         if (v_objData != null)

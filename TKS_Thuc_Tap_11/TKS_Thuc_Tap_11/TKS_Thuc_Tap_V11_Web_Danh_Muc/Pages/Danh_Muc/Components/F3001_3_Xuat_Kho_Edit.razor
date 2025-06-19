@@ -21,10 +21,11 @@
             <EditForm Model="@m_objData">
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
+
                             <div class="row mb-3">
                                 <div class="col-lg-11">
-                                    <label class="form-label">@Get_Language_Data_Field("Số phiếu nhập kho"):</label>
+                                    <label class="form-label">@Get_Language_Data_Field("Số phiếu xuất kho"):</label>
                                     <input @ref="txtFocus" @bind="@m_objData.So_Phieu_Xuat_Kho" class="form-control">
                                 </div>
                             </div>
@@ -48,7 +49,10 @@
                                     </TelerikMultiColumnComboBox>
                                 </div>
                             </div>
-                            
+
+                        </div>
+                        <div class="col-lg-3">
+
                             <div class="row mb-3">
                                 <div class="col-lg-11">
                                     <label class="form-label">@Get_Language_Data_Field("Ngày xuất kho"):</label>
@@ -64,59 +68,64 @@
                                 </div>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-4">
-                            <div class="row mb-3">
-                                <div class="col-lg-11">
-                                    <label class="form-label">@Get_Language_Data_Field("Sản phẩm"):</label>
-                                    <TelerikMultiColumnComboBox @bind-Value="@m_objDataPN.San_Pham_ID"
-                                                                ScrollMode="@DropDownScrollMode.Virtual"
-                                                                Data="@m_arrDataSP"
-                                                                ValueField="@(nameof(CDM_San_Pham.Auto_ID))"
-                                                                TextField="@(nameof(CDM_San_Pham.Ten_San_Pham))"
-                                                                Width="100%"
-                                                                PageSize="10"
-                                                                ItemHeight="35"
-                                                                Filterable="true"
-                                                                FilterOperator="@StringFilterOperator.Contains"
-                                                                ListHeight="260px">
-                                        <MultiColumnComboBoxColumns>
-                                            <MultiColumnComboBoxColumn Field="@nameof(CDM_San_Pham.Ten_San_Pham)" Title="@Get_Language_Data_Field("Tên")" Width="250px" Class="k-tks-combobox-item" HeaderClass="k-tks-combobox-header" />
-                                        </MultiColumnComboBoxColumns>
-                                    </TelerikMultiColumnComboBox>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-lg-11">
-                                    <label class="form-label">@Get_Language_Data_Field("Số lượng xuất"):</label>
-                                    <input @ref="txtFocus" @bind="@m_objDataPN.SL_Xuat" type="number" class="form-control">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-lg-11">
-                                    <label class="form-label">@Get_Language_Data_Field("Đơn giá xuất"):</label>
-                                    <input @ref="txtFocus" @bind="@m_objDataPN.Don_Gia_Xuat" type="number" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4" style="width:400px">
-                            <TelerikGrid Data="@v_arrData"
-                                         Resizable="true"
-                                         Reorderable="true"
-                                         @ref="@grdData">
-                                <GridColumns>
-                                    <GridColumn Field="San_Pham_ID" Title="Sản phẩm" Width="100px" />
-                                    <GridColumn Field="SL_Xuat" Title="Số lượng xuất" Width="100px" />
-                                    <GridColumn Field="Don_Gia_Xuat" Title="Đơn giá xuất" Width="100px" />
-                                </GridColumns>
-                            </TelerikGrid>
-                        </div>
                     </div>
 
                 </div>
             </EditForm>
+            <div class="modal-body" style="padding-top: 0px !important;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hstack flex-wrap gap-2 mb-3 mb-lg-0" style="float: left;">
+                            @if (r_objChuc_Nang.Is_Have_Add_Permission == true)
+                            {
+                                <button type="button" class="btn rounded-pill btn-primary waves-effect waves-light" @onclick="@(()=> Open_Phieu_Xuat_Edit(0))">
+                                    <i class="ri-add-circle-fill align-bottom me-1"></i>
+                                    @Get_Language_Data_Field("Thêm")
+                                </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-lg-12">
+                        <TelerikGrid Data="@m_objData.Phieu_Xuat_Kho" Height="250px" Resizable="true" Reorderable="true" @ref="@grdData">
+                            <GridColumns>
+                                <GridCheckboxColumn SelectAll="true" CheckBoxOnlySelection="true" Width="30px"></GridCheckboxColumn>
+                                <GridColumn Width="30px">
+                                    <Template Context="Phieu_Xuat_Kho">
+                                        <button class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-cog-outline" style="color: purple;"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            @if (r_objChuc_Nang.Is_Have_Edit_Permission == true)
+                                            {
+                                                <li>
+                                                    <button class="dropdown-item" type="button" @onclick="@(()=> Open_Phieu_Xuat_Edit((Phieu_Xuat_Kho as CDM_Phieu_Xuat_Kho).Auto_ID))"><i class="ri-edit-2-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Hiệu chỉnh")</button>
+                                                </li>
+                                            }
+                                            @if (r_objChuc_Nang.Is_Have_Delete_Permission == true)
+                                            {
+                                                <li>
+                                                    <button class="dropdown-item" type="button" @onclick="@(()=> Delete_Function((Phieu_Xuat_Kho as CDM_Phieu_Xuat_Kho)))"><i class="ri-delete-bin-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Xóa")</button>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </Template>
+                                </GridColumn>
+                                <GridColumn Title="Sản phẩm" Width="150px">
+                                    <Template Context="item">
+                                        @CUtility.Get_Label_Text(CCache_San_Pham.Get_Data_By_ID((item as CDM_Phieu_Xuat_Kho).San_Pham_ID)?.Ten_San_Pham, false)
+                                    </Template>
+                                </GridColumn>
+                                <GridColumn Field="SL_Xuat" Title="Số lượng xuất" Width="100px" />
+                                <GridColumn Field="Don_Gia_Xuat" Title="Đơn giá xuất" Width="100px" />
+                            </GridColumns>
+                        </TelerikGrid>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" @onclick="@Save_Data" style="margin-right: 37px;">@Get_Language_Data_Field("Lưu Thay Đổi")</button>
@@ -125,11 +134,18 @@
     </div>
 </div>
 
+@if (m_blIs_Show_Edit_Phieu_Xuat == true)
+{
+    <F3001_A_Phieu_Xuat_Kho_Edit p_iPhieu_Xuat_Kho_ID="@m_iPhieu_Xuat_ID" p_arrPhieu_Xuat_Kho="@m_objData.Phieu_Xuat_Kho" OnClose="@Close_Phieu_Xuat"></F3001_A_Phieu_Xuat_Kho_Edit>
+}
+
+
 @code {
     public List<CDM_Phieu_Xuat_Kho> v_arrData = new();
     TelerikGrid<CDM_Phieu_Xuat_Kho> grdData = new();
     private CDM_Xuat_Kho m_objData = new();
-    private CDM_Phieu_Xuat_Kho m_objDataPN = new();
+    private CDM_Phieu_Xuat_Kho m_objDataPhieu_Xuat = new();
+    private CDM_San_Pham m_objData_SP = new();
     private List<IBrowserFile> loadedFiles = new();
     private bool m_bIs_Update_File = false;
     List<CDM_Kho> m_arrData = new();
@@ -138,6 +154,8 @@
     private DateTime Min = new DateTime(2000, 1, 1);
     private DateTime Max = new DateTime(2100, 12, 31);
 
+    private long m_iPhieu_Xuat_ID { get; set; } = 0;
+    private bool m_blIs_Show_Edit_Phieu_Xuat { get; set; } = false;
     protected override void Init_Data()
     {
         m_arrData.Clear();
@@ -151,133 +169,121 @@
         Format_Grid(grdData);
         //Nhập kho
         CDM_Xuat_Kho_Controller v_objCtrData = new();
-        m_objData = v_objCtrData.FQ_541_XK_sp_sel_Get_By_ID(r_iAuto_ID);
+        CDM_Phieu_Xuat_Kho_Controller v_objCtrDataPhieu_Xuat = new();
+        m_objData = v_objCtrData.FQ_728_XK_sp_sel_Get_By_ID(r_iAuto_ID);
 
         if (m_objData == null)
             m_objData = new CDM_Xuat_Kho();
         else
         {
             r_bUpdate = true;
-
+            m_objData.Phieu_Xuat_Kho = v_objCtrDataPhieu_Xuat.F3001_sp_sel_List_By_Xuat_Kho_ID(m_objData.Auto_ID);
             // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
             CDM_Xuat_Kho v_objClone = new();
             CUtility.Clone_Entity(m_objData, v_objClone);
             r_objSource = v_objClone;
             // End tracking
+
         }
+        Hide_Pageable(grdData);
 
-        //Phiếu chi tiết nhập kho
-        CDM_Phieu_Xuat_Kho_Controller v_objCtrDataPN = new();
-        m_objDataPN = v_objCtrDataPN.FQ_543_XKR_sp_sel_Get_By_ID(r_iAuto_ID);
-        if (m_objDataPN == null)
-            m_objDataPN = new CDM_Phieu_Xuat_Kho();
-        else
+    }
+    public void Delete_Function(CDM_Phieu_Xuat_Kho p_objData)
+    {
+        m_objData.Phieu_Xuat_Kho.Remove(p_objData);
+        grdData.Rebind();
+    }
+    private void AddCT_Phieu_Xuat(SqlConnection p_conn, SqlTransaction p_trans, StringBuilder p_sbError)
+    {
+        CDM_Phieu_Xuat_Kho_Controller v_objCtrPhieu_Xuat = new();
+        int v_iCount = 0;
+        foreach (CDM_Phieu_Xuat_Kho v_obj in m_objData.Phieu_Xuat_Kho)
         {
-            r_bUpdate = true;
-
-            // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-            CDM_Phieu_Xuat_Kho v_objClone = new();
-            CUtility.Clone_Entity(m_objData, v_objClone);
-            r_objSource = v_objClone;
-            // End tracking
+            v_iCount++;
+            try
+            {
+                //insert
+                v_obj.Xuat_Kho_ID = r_iAuto_ID;
+                //v_objCtrFunction.F1022_A_sp_ins_API_Source_Function(p_conn, p_trans, v_obj);
+                v_objCtrPhieu_Xuat.FQ_734_XKRD_sp_ins_Insert(p_conn, p_trans, v_obj);
+            }
+            catch (Exception ex)
+            {
+                p_sbError.AppendLine(Get_Language_Data_Field("Dòng") + " " + v_iCount.ToString() + " " + Get_Language_Data_Field("có lỗi") + ": " + ex.Message + ":" + v_obj.Xuat_Kho_ID + "<br/>");
+            }
         }
     }
     protected override void Add_Data()
     {
+        SqlConnection v_conn = null;
+        SqlTransaction v_trans = null;
         CDM_Xuat_Kho_Controller v_objCtrData = new();
-        CDM_Phieu_Xuat_Kho_Controller v_objCtrDataPN = new();
-        #region Save File
-        Check_Data();
+        // CSys_API_Source_Function_Controller v_objCtrFunction = new();
 
-        #endregion
+        StringBuilder v_sbError = new StringBuilder();
 
-        m_objData.Last_Updated_By = r_strActive_User_Name;
-        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_541_XK_sp_ins_Insert(m_objData);
-
-        m_objDataPN.Last_Updated_By = r_strActive_User_Name;
-        m_objDataPN.Last_Updated_By_Function = r_strActive_Function_Code;
-        m_objDataPN.Auto_ID = r_iAuto_ID = v_objCtrDataPN.FQ_543_XKR_sp_ins_Insert(m_objDataPN);
-        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-        r_strAdd_Key = m_objData.So_Phieu_Xuat_Kho;
-        // End tracking
-
-        CCache_Xuat_Kho.Add_Data(m_objData);
-        CCache_Phieu_Xuat_Kho.Add_Data(m_objDataPN);
-
-    }
-
-    protected override void Update_Data()
-    {
-        CDM_Xuat_Kho_Controller v_objCtrData = new();
-        CDM_Phieu_Xuat_Kho_Controller v_objCtrDataPN = new();
-        Check_Data();
-
-        m_objData.Last_Updated_By = r_strActive_User_Name;
-        m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        v_objCtrData.FQ_541_XK_sp_upd_Update(m_objData);
-
-
-        // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-        CDM_Xuat_Kho v_objClone = new();
-        CUtility.Clone_Entity(m_objData, v_objClone);
-        r_objDes = v_objClone;
-        // End tracking
-
-        CCache_Xuat_Kho.Update_Data(m_objData);
-    }
-
-    private void OnSelectHandler(InputFileChangeEventArgs e)
-    {
-        r_strError = "";
-        loadedFiles.Clear();
         try
         {
-            foreach (var file in e.GetMultipleFiles())
-            {
-                if (file.Size > 1024000)
-                    throw new Exception("File phải nhỏ hơn 1MB.");
+            //tao ket noi transaction
+            v_conn = CSqlHelper.CreateConnection(CConfig.TKS_Thuc_Tap_V11_Conn_String);
+            v_conn.Open();
+            v_trans = v_conn.BeginTransaction();
 
-                loadedFiles.Add(file);
-            }
+            m_objData.Last_Updated_By = r_strActive_User_Name;
+            m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
+            //m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.F1022_sp_ins_API_Source(v_conn, v_trans, m_objData);
+            m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_728_XK_sp_ins_Insert(v_conn, v_trans, m_objData);
+
+            //ghi tracking log
+            r_strAdd_Key = "Key: " + m_objData.So_Phieu_Xuat_Kho;
+
+            //CẬP NHẬT dòng chi tiết
+            AddCT_Phieu_Xuat(v_conn, v_trans, v_sbError);
+
+            if (v_sbError.ToString().Length > 0)
+                throw new Exception(v_sbError.ToString());
+
+            v_trans.Commit();
+            CCache_Xuat_Kho.Load_Cache_Xuat_Kho();
+            CCache_Phieu_Xuat_Kho.Load_Cache_Phieu_Xuat_Kho();
         }
+
         catch (Exception ex)
         {
-            loadedFiles.Clear();
-            throw new Exception(ex.Message);
+            if (v_trans != null)
+                v_trans.Rollback();
+
+            throw ex;
+        }
+
+        finally
+        {
+            if (v_trans != null)
+                v_trans.Dispose();
+
+            if (v_conn != null)
+                v_conn.Close();
         }
     }
 
-    private void Check_Data()
+
+
+    #region form Edit con
+    protected void Open_Phieu_Xuat_Edit(long p_iAuto_ID)
     {
         r_strError = "";
-        try
+        m_iPhieu_Xuat_ID = p_iAuto_ID;
+        m_blIs_Show_Edit_Phieu_Xuat = true;
+        StateHasChanged();
+    }
+    private void Close_Phieu_Xuat(CEvent_Call_Back p_obj)
+    {
+        if (p_obj.Message_ID != (int)EModal_Result.Exception)
         {
-            if (loadedFiles.Count > 0)
-            {
-                IBrowserFile v_objFile = loadedFiles[0];
-
-                string v_strTextExl = Path.GetExtension(v_objFile.Name).ToLower();
-
-                if (!CUtility.Check_File_Type_Accept_Upload(v_strTextExl))
-                    throw new Exception("File không đúng định dạng");
-
-                string v_strFile_Name_Full = Path.GetFileName(v_objFile.Name);
-                r_objImport_Excel.Path_File = CUtility.Fix_Handler_File_Name(v_strFile_Name_Full);
-
-                m_bIs_Update_File = true;
-            }
-            //else
-            //{
-            //	r_objImport_Excel.Path_File = "";
-            //	if (r_bUpdate == false)
-            //		throw new Exception("File không được trống");
-            //}
-
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
+            m_blIs_Show_Edit_Phieu_Xuat = false;
+            grdData.Rebind();
         }
     }
+    #endregion form Edit con
+
 }

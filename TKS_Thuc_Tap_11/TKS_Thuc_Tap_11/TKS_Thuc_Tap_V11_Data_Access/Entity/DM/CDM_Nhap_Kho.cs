@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TKS_Thuc_Tap_V11_Data_Access.Entity.Sys;
 using TKS_Thuc_Tap_V11_Data_Access.Utility;
 
 namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
@@ -24,6 +25,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
         private string m_strLast_Updated_By_Function;
 
         private string m_strLast_Updated_API;
+        private List<CDM_Phieu_Nhap_Kho> m_arrPhieu_Nhap_Kho;
         public CDM_Nhap_Kho()
         {
             ResetData();
@@ -46,6 +48,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
             m_strLast_Updated_By_Function = CConst.STR_VALUE_NULL;
 
             m_strLast_Updated_API = CConst.STR_VALUE_NULL;
+            m_arrPhieu_Nhap_Kho = new List<CDM_Phieu_Nhap_Kho>();
         }
 
         public long Auto_ID
@@ -213,6 +216,17 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
             {
                 m_strLast_Updated_API = value.Trim();
 
+            }
+        }
+        public List<CDM_Phieu_Nhap_Kho> Phieu_Nhap_Kho
+        {
+            get
+            {
+                return m_arrPhieu_Nhap_Kho;
+            }
+            set
+            {
+                m_arrPhieu_Nhap_Kho = value;
             }
         }
     }

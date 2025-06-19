@@ -23,6 +23,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
         private string m_strLast_Updated_By_Function;
 
         private string m_strLast_Updated_API;
+        private List<CDM_Phieu_Xuat_Kho> m_arrPhieu_Xuat_Kho;
         public CDM_Xuat_Kho()
         {
             ResetData();
@@ -44,6 +45,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
             m_strLast_Updated_By_Function = CConst.STR_VALUE_NULL;
 
             m_strLast_Updated_API = CConst.STR_VALUE_NULL;
+            m_arrPhieu_Xuat_Kho = new List<CDM_Phieu_Xuat_Kho>();
         }
 
         public long Auto_ID
@@ -199,6 +201,17 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Entity.DM
             {
                 m_strLast_Updated_API = value.Trim();
 
+            }
+        }
+        public List<CDM_Phieu_Xuat_Kho> Phieu_Xuat_Kho
+        {
+            get
+            {
+                return m_arrPhieu_Xuat_Kho;
+            }
+            set
+            {
+                m_arrPhieu_Xuat_Kho = value;
             }
         }
     }

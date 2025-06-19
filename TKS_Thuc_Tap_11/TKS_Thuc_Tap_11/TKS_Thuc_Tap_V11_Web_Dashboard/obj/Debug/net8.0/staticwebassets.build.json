@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "R2NR5u9iBqLCQJgn/F7AHURyztNzCRyXAatcYUCv7Bc=",
+  "Hash": "p+f2DL+Cej9TbUpC2hDthGVRQDJglBmqBSpBOEWH0yw=",
   "Source": "TKS_Thuc_Tap_V11_Web_Dashboard",
   "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Dashboard",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
       "Version": 2,
       "Source": "TKS_Thuc_Tap_V11_Web_Common",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
       "Version": 2,
       "Source": "TKS_Thuc_Tap_V11_Web_Control",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,21 +33,21 @@
     {
       "Name": "TKS_Thuc_Tap_V11_Web_Common\\wwwroot",
       "Source": "TKS_Thuc_Tap_V11_Web_Common",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
       "Pattern": "**"
     },
     {
       "Name": "TKS_Thuc_Tap_V11_Web_Control\\wwwroot",
       "Source": "TKS_Thuc_Tap_V11_Web_Control",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Control",
       "Pattern": "**"
     },
     {
       "Name": "TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot",
       "Source": "TKS_Thuc_Tap_V11_Web_Dashboard",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Dashboard",
       "Pattern": "**"
     }
@@ -285,10 +285,10 @@
       "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\telerik.ui.for.blazor.trial\\8.0.0\\staticwebassets\\js\\telerik-blazor.js"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
       "RelativePath": "TKS_Thuc_Tap_V11_Web_Common#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "Integrity": "MmHzPK5ZRdt6GV4GqFNHQtMcgJDU8SEyLqINhg6+Xac=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
       "RelativePath": "background#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -324,13 +324,13 @@
       "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Common",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Common",
       "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -345,13 +345,13 @@
       "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Control",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Control",
       "RelativePath": "background#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -366,13 +366,13 @@
       "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Control",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Control",
       "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -387,13 +387,13 @@
       "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Dashboard",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Dashboard",
       "RelativePath": "TKS_Thuc_Tap_V11_Web_Dashboard#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -408,13 +408,13 @@
       "Integrity": "jGgao8S7L41fsoitz9+vmAivqIisSo0GK7Fmv3CFQSY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css"
+      "OriginalItemSpec": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Dashboard",
       "RelativePath": "background#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -432,10 +432,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
       "SourceId": "TKS_Thuc_Tap_V11_Web_Dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\",
       "BasePath": "_content/TKS_Thuc_Tap_V11_Web_Dashboard",
       "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1268,7 +1268,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/background.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1305,7 +1305,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/background.x2rx4ajns0.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1350,7 +1350,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1432,7 +1432,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1457,7 +1457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+          "Value": "Thu, 10 Apr 2025 03:33:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1469,7 +1469,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Common/TKS_Thuc_Tap_V11_Web_Common.yo32ulpgx1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TKS_Thuc_Tap_V11_Web_Common.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1494,7 +1494,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:11:47 GMT"
+          "Value": "Thu, 10 Apr 2025 03:33:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1514,7 +1514,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Control/background.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1551,7 +1551,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Control/background.x2rx4ajns0.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1596,7 +1596,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Control/exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1641,7 +1641,7 @@
     },
     {
       "Route": "_content/TKS_Thuc_Tap_V11_Web_Control/exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1678,7 +1678,7 @@
     },
     {
       "Route": "background.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1715,7 +1715,7 @@
     },
     {
       "Route": "background.x2rx4ajns0.png",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1760,7 +1760,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1805,7 +1805,7 @@
     },
     {
       "Route": "exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1842,7 +1842,7 @@
     },
     {
       "Route": "TKS_Thuc_Tap_V11_Web_Dashboard.4287obulml.styles.css",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1867,7 +1867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:12:19 GMT"
+          "Value": "Thu, 10 Apr 2025 03:33:22 GMT"
         },
         {
           "Name": "Link",
@@ -1891,7 +1891,7 @@
     },
     {
       "Route": "TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
-      "AssetFile": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
+      "AssetFile": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Dashboard\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TKS_Thuc_Tap_V11_Web_Dashboard.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1916,7 +1916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:12:19 GMT"
+          "Value": "Thu, 10 Apr 2025 03:33:22 GMT"
         },
         {
           "Name": "Link",

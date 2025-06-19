@@ -22,7 +22,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Controller.Cache
             Dic_Data_Code.Clear();
             //Dic_Data_Ten_Xuat_Kho.Clear();
             CDM_Xuat_Kho_Controller v_objCtrl = new();
-            List<CDM_Xuat_Kho> v_arrTemp_Data = v_objCtrl.FQ_541_XK_sp_sel_List_For_Cache();
+            List<CDM_Xuat_Kho> v_arrTemp_Data = v_objCtrl.FQ_728_XK_sp_sel_List_For_Cache();
 
             foreach (CDM_Xuat_Kho v_objData in v_arrTemp_Data)
                 Add_Data(v_objData);

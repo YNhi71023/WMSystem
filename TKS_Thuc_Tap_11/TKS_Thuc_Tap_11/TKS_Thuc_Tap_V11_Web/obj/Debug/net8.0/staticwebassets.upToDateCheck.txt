@@ -747,6 +747,14 @@ wwwroot\FileManagement\Log\20250327.log
 wwwroot\FileManagement\Log\20250401.log
 wwwroot\FileManagement\Log\20250402.log
 wwwroot\FileManagement\Log\20250404.log
+wwwroot\FileManagement\Log\20250409.log
+wwwroot\FileManagement\Log\20250410.log
+wwwroot\FileManagement\Log\20250422.log
+wwwroot\FileManagement\Log\20250424.log
+wwwroot\FileManagement\Log\20250425.log
+wwwroot\FileManagement\Log\20250428.log
+wwwroot\FileManagement\Log\20250505.log
+wwwroot\FileManagement\Log\20250506.log
 wwwroot\FileManagement\Template\Cau_Hinh_Grid_Field_Template.xlsx
 wwwroot\FileManagement\Template\Cau_Hinh_Grid_UI_Global_Template.xlsx
 wwwroot\FileManagement\Template\Chu_Hang_Template.xlsx

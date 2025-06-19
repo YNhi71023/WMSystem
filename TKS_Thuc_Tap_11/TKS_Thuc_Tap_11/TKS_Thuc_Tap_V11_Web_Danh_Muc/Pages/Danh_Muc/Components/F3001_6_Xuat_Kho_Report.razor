@@ -1,0 +1,45 @@
+﻿@using TKS_Thuc_Tap_V11_Report
+@inherits FBase;
+
+<div class="modal fade show" tabindex="-1" role="dialog" aria-hidden="true" style="display: block; padding-left: 0px; background-color: rgba(10, 10, 10, .8);">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header bg-light">
+				<h5 class="modal-title">@Get_Language_Data_Field("Phiếu xuất Kho")</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@(()=> Modal_Cancel())">
+				</button>
+			</div>
+
+			@((MarkupString)r_strError)
+
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-12">
+						<FCommon_Report_Viewer @ref="@m_objReport"></FCommon_Report_Viewer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@code {
+
+	FCommon_Report_Viewer m_objReport = new();
+	protected override async Task Load_Data_Async()
+	{
+		string v_strReport_Name = "rptXuat_Kho.trdp";
+		CReport_Xuat_Kho v_objReportData = new();
+
+		double v_dblTotalPrice = v_objReportData.rptReport_TotalQuantity(r_iAuto_ID);
+		string v_strTotalPriceInWords = v_objReportData.rptReport_TotalQuantityInWords(r_iAuto_ID);
+		Dictionary<string, object> v_dicData_Source = new Dictionary<string, object>
+		{
+			{ "piAutoID", r_iAuto_ID },
+			// { "TotalPrice", v_dblTotalPrice },
+			// { "TotalPriceInWords", v_strTotalPriceInWords }
+		};
+
+		await m_objReport.Load_Report(v_strReport_Name, v_dicData_Source);
+	}
+}

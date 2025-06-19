@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj": {}
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
+        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
         "projectName": "TKS_Thuc_Tap_V11_Data_Access",
-        "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
+        "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj",
         "packagesPath": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\obj\\",
+        "outputPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\nguyendangynhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -93,24 +91,22 @@
         }
       }
     },
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
+        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
         "projectName": "TKS_Thuc_Tap_V11_Report",
-        "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
+        "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj",
         "packagesPath": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\obj\\",
+        "outputPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\nguyendangynhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -124,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
               }
             }
           }
@@ -174,24 +170,22 @@
         }
       }
     },
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
+        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
         "projectName": "TKS_Thuc_Tap_V11_Web_Common",
-        "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
+        "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj",
         "packagesPath": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\",
+        "outputPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\nguyendangynhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -205,11 +199,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
               }
             }
           }
@@ -290,24 +284,22 @@
         }
       }
     },
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj": {
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
+        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
         "projectName": "TKS_Thuc_Tap_V11_Web_Control",
-        "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
+        "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj",
         "packagesPath": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\obj\\",
+        "outputPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\nguyendangynhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -321,14 +313,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj"
               }
             }
           }
@@ -409,24 +401,22 @@
         }
       }
     },
-    "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj": {
+    "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj",
+        "projectUniqueName": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj",
         "projectName": "TKS_Thuc_Tap_V11_Web_Danh_Muc",
-        "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj",
+        "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\TKS_Thuc_Tap_V11_Web_Danh_Muc.csproj",
         "packagesPath": "C:\\Users\\nguyendangynhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\obj\\",
+        "outputPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Danh_Muc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\nguyendangynhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -440,17 +430,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Data_Access\\TKS_Thuc_Tap_V11_Data_Access.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Report\\TKS_Thuc_Tap_V11_Report.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Common\\TKS_Thuc_Tap_V11_Web_Common.csproj"
               },
-              "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj": {
-                "projectPath": "C:\\Users\\nguyendangynhi\\Downloads\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj"
+              "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj": {
+                "projectPath": "C:\\Users\\nguyendangynhi\\Documents\\ThucTapSKSolution1\\WMS\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_11\\TKS_Thuc_Tap_V11_Web_Control\\TKS_Thuc_Tap_V11_Web_Control.csproj"
               }
             }
           }

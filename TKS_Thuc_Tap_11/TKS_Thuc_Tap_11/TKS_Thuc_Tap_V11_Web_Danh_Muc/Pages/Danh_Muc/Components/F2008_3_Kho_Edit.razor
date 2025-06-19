@@ -63,7 +63,7 @@
     protected override void Load_Data()
     {
         CDM_Kho_Controller v_objCtrData = new();
-        m_objData = v_objCtrData.FQ_538_K_sp_sel_Get_By_ID(r_iAuto_ID);
+        m_objData = v_objCtrData.FQ_114_K_sp_sel_Get_By_ID(r_iAuto_ID);
 
         if (m_objData == null)
             m_objData = new CDM_Kho();
@@ -97,7 +97,7 @@
 
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_538_K_sp_ins_Insert(m_objData);
+        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_114_K_sp_ins_Insert(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         r_strAdd_Key = m_objData.Ten_Kho;
@@ -131,7 +131,7 @@
         // CDM_Kho_Controller v_objCtrData = new();
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        v_objCtrData.FQ_538_K_sp_upd_Update(m_objData);
+        v_objCtrData.FQ_114_K_sp_upd_Update(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         CDM_Kho v_objClone = new();

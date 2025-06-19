@@ -1,0 +1,3 @@
+|Trace|CSqlHelper|FillDataTable|24/04/2025|08:39:06|Store: FQ_530_SND_sp_sel_List_For_Cache execute 1.002933
+|Trace|CSqlHelper|FillDataTable|24/04/2025|02:29:16|Store: FQ_521_L_sp_sel_List_For_Cache execute 1.233364
+|Trace|CSqlHelper|FillDataTable|24/04/2025|03:53:18|Store: FQ_524_NPU_sp_sel_List_For_Cache execute 1.493053

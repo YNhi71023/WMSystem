@@ -10,6 +10,11 @@
 							@Get_Language_Data_Field("Thông tin")
 						</a>
 					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" href="#sanphamnhap" role="tab" aria-selected="false" tabindex="-1">
+							@Get_Language_Data_Field("Chi tiết phiếu")
+						</a>
+					</li>
 
 					<li class="nav-item" role="presentation">
 						<a class="nav-link" data-bs-toggle="tab" href="#record_action_history" role="tab" aria-selected="false" tabindex="-1">
@@ -123,6 +128,29 @@
 
 							</div>
 						</div>
+						<div class="tab-pane" id="sanphamnhap" role="tabpanel">
+							<div class="row">
+								<div class="col-lg-12">
+									<TelerikGrid Data="@m_arrPhieu_Nhap_Kho" Height="300px" Resizable="true" Reorderable="true" @ref="@grdPhieu_Nhap_Kho">
+										<GridColumns>
+											<GridColumn Title="Sản phẩm" Width="150px">
+												<Template Context="item">
+													@CUtility.Get_Label_Text(CCache_San_Pham.Get_Data_By_ID((item as CDM_Phieu_Nhap_Kho).San_Pham_ID)?.Ten_San_Pham, false)
+												</Template>
+											</GridColumn>
+
+											<GridColumn Field="SL_Nhap" Title="Số lượng nhập" Width="100px"></GridColumn>
+											<GridColumn Field="Don_Gia_Nhap" Title="Đơn giá nhập" Width="200px"></GridColumn>
+											<GridColumn Field="Ghi_Chu" Title="Ghi chú" Width="300px"></GridColumn>
+											<GridColumn Field="" Title=""></GridColumn>
+										</GridColumns>
+									</TelerikGrid>
+								</div>
+							</div>
+
+
+
+						</div>
 
 						<div class="tab-pane" id="record_action_history" role="tabpanel">
 							<FCommon_Record_Action_History_List v_arrData="@m_arrRAH" />
@@ -137,18 +165,21 @@
 @code {
 	private CDM_Nhap_Kho m_objData = new();
 	private List<CLog_Record_Action_History> m_arrRAH = new();
+	private List<CDM_Phieu_Nhap_Kho> m_arrPhieu_Nhap_Kho = new();
+	private TelerikGrid<CDM_Phieu_Nhap_Kho> grdPhieu_Nhap_Kho = new();
 	private CDM_Kho m_objData_Kho = new();
 	private CDM_NCC m_objData_NCC = new();
-
 
 	protected override void Load_Data()
 	{
 		CDM_Nhap_Kho_Controller v_objCtrData = new();
 		CLog_Record_Action_History_Controller v_objCtrRAH = new();
-
-		m_objData = v_objCtrData.FQ_540_NK_sp_sel_Get_By_ID(r_iAuto_ID);
+		CDM_Phieu_Nhap_Kho_Controller v_objCtrlPN = new();
+		m_objData = v_objCtrData.FQ_718_NK_sp_sel_Get_By_ID(r_iAuto_ID);
 		m_objData_Kho = CCache_Kho.Get_Data_By_ID(m_objData.Kho_ID);
 		m_objData_NCC = CCache_NCC.Get_Data_By_ID(m_objData.NCC_ID);
-		m_arrRAH = v_objCtrRAH.FCommon_Sys_sp_sel_List_Log_Record_Action_History(r_iAuto_ID);
+		m_arrPhieu_Nhap_Kho = v_objCtrlPN.F7001_sp_sel_List_By_Nhap_Kho_ID(m_objData.Auto_ID);
+		//m_arrRAH = v_objCtrRAH.FCommon_Sys_sp_sel_List_Log_Record_Action_History(r_iAuto_ID);
 	}
+
 }

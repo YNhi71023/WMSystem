@@ -46,6 +46,17 @@
                 {
                     <GridColumn Field="Ma_San_Pham" Title="Mã sản phẩm" Width="100px"></GridColumn>
                     <GridColumn Field="Ten_San_Pham" Title="Tên sản phẩm" Width="150px"></GridColumn>
+                    <GridColumn Title="Loại sản phẩm" Width="150px">
+                        <Template>
+                            @CUtility.Get_Label_Text(CCache_Loai_San_Pham.Get_Data_By_ID((context as CDM_San_Pham).Loai_San_Pham_ID)?.Ten_LSP, false)
+                        </Template>
+                    </GridColumn>
+                    <GridColumn Title="Đơn vị tính" Width="150px">
+                        <Template>
+                            @CUtility.Get_Label_Text(CCache_Don_Vi_Tinh.Get_Data_By_ID((context as CDM_San_Pham).Don_Vi_Tinh_ID)?.Ten_Don_Vi_Tinh, false)
+                        </Template>
+                    </GridColumn>
+
                     <GridColumn Field="Ghi_Chu" Title="Ghi chú" Width="200px"></GridColumn>
                     <GridColumn Field="" Title=""></GridColumn>
                 }
@@ -92,7 +103,7 @@
     {
         Format_Grid(grdData);
         CDM_San_Pham_Controller v_objCtrData = new();
-        v_arrData = v_objCtrData.FQ_537_SP_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
+        v_arrData = v_objCtrData.FQ_165_SP_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
     }
 
     protected override void Delete_Data_Entry(long p_iAuto_ID)
@@ -100,13 +111,13 @@
         CDM_San_Pham_Controller v_objCtrData = new();
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-        CDM_San_Pham v_objData = v_objCtrData.FQ_537_SP_sp_sel_Get_By_ID(p_iAuto_ID);
+        CDM_San_Pham v_objData = v_objCtrData.FQ_165_SP_sp_sel_Get_By_ID(p_iAuto_ID);
         if (v_objData != null)
             r_strDelete_Key = v_objData.Ma_San_Pham;
         // End tracking
 
 
-        v_objCtrData.FQ_537_SP_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
+        v_objCtrData.FQ_165_SP_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
         CCache_Chu_Hang.Delete_Data(p_iAuto_ID);
     }
 
@@ -146,7 +157,7 @@
                     v_objData.Last_Updated_By = r_strActive_User_Name;
                     v_objData.Last_Updated_By_Function = r_strActive_Function_Code;
 
-                    v_objData.Auto_ID = v_objCtrData.FQ_537_SP_sp_ins_Insert(v_conn, v_trans, v_objData);
+                    v_objData.Auto_ID = v_objCtrData.FQ_165_SP_sp_ins_Insert(v_conn, v_trans, v_objData);
                     p_iCount_Success++;
                     v_trans.Commit();
 

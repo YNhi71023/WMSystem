@@ -1,13 +1,13 @@
 ﻿
 @inherits FBase;
 
-@Layout_Default_Filter(grdData, "Don_Vi_Tinh_Template.xlsx")
+@Layout_Default_Filter(m_grdData, "Don_Vi_Tinh_Template.xlsx")
 
 <div class="row" style="padding-top: 10px;">
     <div class="col-lg-12">
         @((MarkupString)r_strError)
 
-        <TelerikGrid Data="@v_arrData" Height="calc(100vh - 170px)" Resizable="true" Reorderable="true" @ref="@grdData">
+        <TelerikGrid Data="@m_arrData" Height="calc(100vh - 170px)" Resizable="true" Reorderable="true" @ref="@m_grdData">
             <GridExport>
                 <GridExcelExport FileName="Don_Vi_Tinh_Export" AllPages="true" />
                 <GridCsvExport FileName="Don_Vi_Tinh_Export" AllPages="true" />
@@ -80,8 +80,8 @@
 }
 
 @code {
-    public List<CDM_Don_Vi_Tinh> v_arrData = new();
-    TelerikGrid<CDM_Don_Vi_Tinh> grdData = new();
+    public List<CDM_Don_Vi_Tinh> m_arrData = new();
+    TelerikGrid<CDM_Don_Vi_Tinh> m_grdData = new();
 
     protected override void Init_Data()
     {
@@ -90,9 +90,9 @@
 
     protected override void Load_Data()
     {
-        Format_Grid(grdData);
+        Format_Grid(m_grdData);
         CDM_Don_Vi_Tinh_Controller v_objCtrData = new();
-        v_arrData = v_objCtrData.FQ_535_DVT_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
+        m_arrData = v_objCtrData.FQ_110_DVT_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
     }
 
     protected override void Delete_Data_Entry(long p_iAuto_ID)
@@ -100,17 +100,17 @@
         CDM_Don_Vi_Tinh_Controller v_objCtrData = new();
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-        CDM_Don_Vi_Tinh v_objData = v_objCtrData.FQ_535_DVT_sp_sel_Get_By_ID(p_iAuto_ID);
+        CDM_Don_Vi_Tinh v_objData = v_objCtrData.FQ_110_DVT_sp_sel_Get_By_ID(p_iAuto_ID);
         if (v_objData != null)
             r_strDelete_Key = v_objData.Ten_Don_Vi_Tinh;
         // End tracking
 
 
-        v_objCtrData.FQ_535_DVT_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
+        v_objCtrData.FQ_110_DVT_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
         CCache_Don_Vi_Tinh.Delete_Data(p_iAuto_ID);
     }
 
-    protected override void Import_Excel_Entry(CExcel_Controller v_objCtrlExcel, ref int p_iCount_Success, ref int p_iCount_Error)
+    protected override void Import_Excel_Entry(CExcel_Controller p_objCtrlExcel, ref int p_iCount_Success, ref int p_iCount_Error)
     {
         CDM_Don_Vi_Tinh_Controller v_objCtrData = new();
 
@@ -119,7 +119,7 @@
         SqlTransaction v_trans = null;
         try
         {
-            DataTable v_dt = v_objCtrlExcel.List_Range_Value_To_End(0, "A2", "I");
+            DataTable v_dt = p_objCtrlExcel.List_Range_Value_To_End(0, "A2", "I");
 
             // Loại mấy dòng trống
             for (int v_i = v_dt.Rows.Count - 1; v_i >= 0; v_i--)
@@ -145,7 +145,7 @@
                     v_objData.Last_Updated_By = r_strActive_User_Name;
                     v_objData.Last_Updated_By_Function = r_strActive_Function_Code;
 
-                    v_objData.Auto_ID = v_objCtrData.FQ_535_DVT_sp_ins_Insert(v_conn, v_trans, v_objData);
+                    v_objData.Auto_ID = v_objCtrData.FQ_110_DVT_sp_ins_Insert(v_conn, v_trans, v_objData);
                     p_iCount_Success++;
                     v_trans.Commit();
 

@@ -1,0 +1,153 @@
+﻿@inherits FBase;
+
+@Layout_Default_Filter(grdData, "Ton_Kho_Template.xlsx")
+
+<div class="row" style="padding-top: 10px;">
+    <div class="col-lg-12">
+        @((MarkupString)r_strError)
+
+        <TelerikGrid Data="@v_arrData" Height="calc(100vh - 170px)" Resizable="true" Reorderable="true" @ref="@grdData">
+            <GridExport>
+                <GridExcelExport FileName="Ton_Kho_Export" AllPages="true" />
+                <GridCsvExport FileName="Ton_Kho_Export" AllPages="true" />
+            </GridExport>
+            <GridColumns>
+                <GridCheckboxColumn SelectAll="true" CheckBoxOnlySelection="true" Width="30px"></GridCheckboxColumn>
+                <GridColumn Width="60px">
+                    <Template>
+                        <button class="btn btn-link" @onclick="@(() => Open_Info((context as CDM_Bao_Cao_Ton_Kho).Auto_ID))">
+                            <i class="mdi mdi-eye" style="color: purple;"></i>
+                        </button>
+                        &nbsp;
+                        <button class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="mdi mdi-cog-outline" style="color: purple;"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            @if (r_objChuc_Nang.Is_Have_Edit_Permission)
+                            {
+                                <li>
+                                    <button class="dropdown-item" @onclick="@(() => Open_Edit((context as CDM_Bao_Cao_Ton_Kho).Auto_ID))">
+                                        <i class="ri-edit-2-line align-bottom me-1"></i> @Get_Language_Data_Field("Hiệu chỉnh")
+                                    </button>
+                                </li>
+                            }
+                            @if (r_objChuc_Nang.Is_Have_Delete_Permission)
+                            {
+                                <li>
+                                    <button class="dropdown-item" @onclick="@(() => Delete_Data((context as CDM_Bao_Cao_Ton_Kho).Auto_ID))">
+                                        <i class="ri-delete-bin-line align-bottom me-1"></i> @Get_Language_Data_Field("Xóa")
+                                    </button>
+                                </li>
+                            }
+                        </ul>
+                    </Template>
+                </GridColumn>
+
+                @if (CCache_Grid_UI_Global.List_Data_By_Code("7001", "grdData").Count > 0)
+                {
+                    <FCommon_General_Col_Grid m_strFCode="2003" m_strTen_Grid="grdData"></FCommon_General_Col_Grid>
+                }
+                else
+                {
+                    <GridColumn Field="Ma_San_Pham" Title="Mã sản phẩm" Width="150px"></GridColumn>
+                    <GridColumn Field="Ten_San_Pham" Title="Tên sản phẩm" Width="200px"></GridColumn>
+                    <GridColumn Field="SL_Dau_Ky" Title="Số lượng đầu kỳ" Width="150px"></GridColumn>
+                    <GridColumn Field="SL_Nhap" Title="Số lượng nhập" Width="130px"></GridColumn>
+                    <GridColumn Field="SL_Xuat" Title="Số lượng xuất" Width="130px"></GridColumn>
+                    <GridColumn Field="SL_Cuoi_Ky" Title="Số lượng cuối kỳ" Width="130px"></GridColumn>
+                }
+            </GridColumns>
+        </TelerikGrid>
+    </div>
+</div>
+
+@if (r_bIs_Show_Help_Guide)
+{
+    <FCommon_Help_Guide m_strFCode="@r_strActive_Function_Code" OnClose="@Close_Helpguide" />
+}
+@if (r_bIs_Show_Import_Excel)
+{
+    <FCommon_Import_Excel r_objImport_Excel="@r_objImport_Excel" OnClose="@Close_Import_Excel" />
+}
+@if (r_bIs_Show_Message_Info)
+{
+    <FCommon_Message_Info r_strMessage_Header="@r_strMessage_Header" r_strMessage_Info="@r_strMessage_Info" OnClose="@Close_Message_Info" />
+}
+
+@code {
+    public List<CDM_Bao_Cao_Ton_Kho> v_arrData = new();
+    TelerikGrid<CDM_Bao_Cao_Ton_Kho> grdData = new();
+
+    protected override void Init_Data()
+    {
+        // Không cần khởi tạo dữ liệu ở đây nếu không dùng
+    }
+
+    protected override void Load_Data()
+    {
+        Format_Grid(grdData);
+
+        var lstSanPham = CCache_San_Pham.List_Data();
+        var lstNhap = CCache_Nhap_Kho.List_Data()
+            .Where(x => x.Ngay_Nhap_Kho >= r_objFilter.Date_From && x.Ngay_Nhap_Kho <= r_objFilter.Date_To)
+            .ToList();
+
+        var lstXuat = CCache_Xuat_Kho.List_Data()
+            .Where(x => x.Ngay_Xuat_Kho >= r_objFilter.Date_From && x.Ngay_Xuat_Kho <= r_objFilter.Date_To)
+            .ToList();
+
+        v_arrData = new List<CDM_Bao_Cao_Ton_Kho>();
+
+        foreach (var sp in lstSanPham)
+        {
+            var item = new CDM_Bao_Cao_Ton_Kho
+                {
+                    Auto_ID = sp.Auto_ID,
+                    Ma_San_Pham = sp.Ma_San_Pham,
+                    Ten_San_Pham = sp.Ten_San_Pham
+                };
+
+            item.SL_Dau_Ky = Tinh_SL_Dau_Ky(sp.Auto_ID, r_objFilter.Date_From);
+
+            item.SL_Nhap = lstNhap
+                .Where(x => CCache_Phieu_Nhap_Kho.List_Data().Any(p => p.Nhap_Kho_ID == x.Auto_ID && p.San_Pham_ID == sp.Auto_ID))
+                .Sum(x => CCache_Phieu_Nhap_Kho.List_Data()
+                    .Where(p => p.Nhap_Kho_ID == x.Auto_ID && p.San_Pham_ID == sp.Auto_ID)
+                    .Sum(p => p.SL_Nhap));
+
+            item.SL_Xuat = lstXuat
+                .Where(x => CCache_Phieu_Xuat_Kho.List_Data().Any(p => p.Xuat_Kho_ID == x.Auto_ID && p.San_Pham_ID == sp.Auto_ID))
+                .Sum(x => CCache_Phieu_Xuat_Kho.List_Data()
+                    .Where(p => p.Xuat_Kho_ID == x.Auto_ID && p.San_Pham_ID == sp.Auto_ID)
+                    .Sum(p => p.SL_Xuat));
+
+            item.SL_Cuoi_Ky = item.SL_Dau_Ky + item.SL_Nhap - item.SL_Xuat;
+
+            v_arrData.Add(item);
+        }
+    }
+
+    private long Tinh_SL_Dau_Ky(long sanPhamID, DateTime? ngayBatDau)
+    {
+        var slNhapTruoc = CCache_Nhap_Kho.List_Data()
+            .Where(x => x.Ngay_Nhap_Kho < ngayBatDau)
+            .Sum(x => CCache_Phieu_Nhap_Kho.List_Data()
+                .Where(p => p.Nhap_Kho_ID == x.Auto_ID && p.San_Pham_ID == sanPhamID)
+                .Sum(p => p.SL_Nhap));
+
+        var slXuatTruoc = CCache_Xuat_Kho.List_Data()
+            .Where(x => x.Ngay_Xuat_Kho < ngayBatDau)
+            .Sum(x => CCache_Phieu_Xuat_Kho.List_Data()
+                .Where(p => p.Xuat_Kho_ID == x.Auto_ID && p.San_Pham_ID == sanPhamID)
+                .Sum(p => p.SL_Xuat));
+
+        return slNhapTruoc - slXuatTruoc;
+    }
+
+    protected override void Delete_Data_Entry(long p_iAuto_ID)
+    {
+        CDM_San_Pham_Controller ctr = new();
+        ctr.FQ_165_SP_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
+        CCache_San_Pham.Delete_Data(p_iAuto_ID);
+    }
+}

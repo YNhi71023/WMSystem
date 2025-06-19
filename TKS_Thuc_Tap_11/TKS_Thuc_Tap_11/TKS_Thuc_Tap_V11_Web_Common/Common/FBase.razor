@@ -34,7 +34,7 @@
     public bool r_bIs_Show_Import_Excel = false;
     public bool r_bIs_Show_Message_Info = false;
     public string r_strDrill_Down_Field = "";
-    // public bool r_blIs_Show_Report = false;
+    public bool r_blIs_Show_Report = false;
     public bool r_bIs_Show_Import_File = false;
 
     // Error, message
@@ -1548,6 +1548,12 @@
         StateHasChanged();
     }
 
+    protected void Open_Report_Excel(long p_iAuto_ID)
+    {
+        r_iAuto_ID = p_iAuto_ID;
+        r_blIs_Show_Report = true;
+        StateHasChanged();
+    }
     protected void Close_Info()
     {
         r_bIs_Show_Info = false;

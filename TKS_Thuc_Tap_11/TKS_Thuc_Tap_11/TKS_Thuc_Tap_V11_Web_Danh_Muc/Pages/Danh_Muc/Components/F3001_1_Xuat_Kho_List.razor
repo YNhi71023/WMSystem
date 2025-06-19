@@ -13,44 +13,53 @@
             </GridExport>
             <GridColumns>
                 <GridCheckboxColumn SelectAll="true" CheckBoxOnlySelection="true" Width="30px"></GridCheckboxColumn>
-                <GridColumn Width="60px">
-                    <Template>
-                        <button class="btn btn-link" @onclick="@(()=> Open_Info((context as CDM_Xuat_Kho).Auto_ID))">
-                            <i class="mdi mdi-eye" style="color: purple;"></i>
-                        </button>
-                        &nbsp;
-                        <button class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="mdi mdi-cog-outline" style="color: purple;"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            @if (r_objChuc_Nang.Is_Have_Edit_Permission == true)
-                            {
-                                <li>
-                                    <button class="dropdown-item" type="button" @onclick="@(()=> Open_Edit((context as CDM_Xuat_Kho).Auto_ID))"><i class="ri-edit-2-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Hiệu chỉnh")</button>
-                                </li>
-                            }
-                            @if (r_objChuc_Nang.Is_Have_Delete_Permission == true)
-                            {
-                                <li>
-                                    <button class="dropdown-item" type="button" @onclick="@(()=> Delete_Data((context as CDM_Xuat_Kho).Auto_ID))"><i class="ri-delete-bin-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Xóa")</button>
-                                </li>
-                            }
-                        </ul>
-                    </Template>
-                </GridColumn>
-                @if (CCache_Grid_UI_Global.List_Data_By_Code("3001", "grdData").Count > 0)
+                @if (CCache_Grid_UI_Global.List_Data_By_Code("7001", "grdData").Count > 0)
                 {
-                    <FCommon_General_Col_Grid m_strFCode="3001" m_strTen_Grid="grdData"></FCommon_General_Col_Grid>
+                    <FCommon_General_Col_Grid m_strFCode="2003" m_strTen_Grid="grdData"></FCommon_General_Col_Grid>
                 }
                 else
                 {
+                    <GridColumn Width="60px">
+                        <Template>
+                            <button class="btn btn-link" @onclick="@(()=> Open_Info((context as CDM_Xuat_Kho).Auto_ID))">
+                                <i class="mdi mdi-eye" style="color: purple;"></i>
+                            </button>
+                            &nbsp;
+
+                            <button class="btn btn-link" @onclick="@(()=> Open_Report_Excel((context as CDM_Xuat_Kho).Auto_ID))">
+                                <i class="ri-printer-fill" style="color: purple;"></i>
+                            </button>
+                            &nbsp;
+                            <button class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="mdi mdi-cog-outline" style="color: purple;"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                @if (r_objChuc_Nang.Is_Have_Edit_Permission == true)
+                                {
+                                    <li>
+                                        <button class="dropdown-item" type="button" @onclick="@(()=> Open_Info_Edit((context as CDM_Xuat_Kho).Auto_ID))"><i class="ri-edit-2-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Hiệu chỉnh Info")</button>
+                                    </li>
+
+                                    <li>
+                                        <button class="dropdown-item" type="button" @onclick="@(()=> Open_Chi_Tiet_Phieu_Xuat_Edit((context as CDM_Xuat_Kho).Auto_ID))"><i class="ri-edit-2-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Hiệu chỉnh chi tiết")</button>
+                                    </li>
+                                }
+                                @if (r_objChuc_Nang.Is_Have_Delete_Permission == true)
+                                {
+                                    <li>
+                                        <button class="dropdown-item" type="button" @onclick="@(()=> Delete_Data((context as CDM_Xuat_Kho).Auto_ID))"><i class="ri-delete-bin-line align-bottom me-1"></i> &nbsp; @Get_Language_Data_Field("Xóa")</button>
+                                    </li>
+                                }
+                            </ul>
+                        </Template>
+                    </GridColumn>
                     <GridColumn Field="So_Phieu_Xuat_Kho" Title="Số phiếu nhập kho" Width="100px"></GridColumn>
                     <GridColumn Title="Kho" Width="150px">
                         <Template>
                             @CUtility.Get_Label_Text(CCache_Kho.Get_Data_By_ID((context as CDM_Xuat_Kho).Kho_ID)?.Ten_Kho, false)
                         </Template>
                     </GridColumn>
-                    <GridColumn Field="Ngay_Xuat_Kho" Title="Ngày xuất kho" Width="150px"></GridColumn>
+                    <GridColumn Field="Ngay_Xuat_Kho" Title="Ngày nhập kho" Width="150px"></GridColumn>
                     <GridColumn Field="Ghi_Chu" Title="Ghi chú" Width="200px"></GridColumn>
                     <GridColumn Field="" Title=""></GridColumn>
                 }
@@ -74,6 +83,15 @@
     <F3001_3_Xuat_Kho_Edit r_iAuto_ID="@r_iAuto_ID" OnClose="@Close_Edit"></F3001_3_Xuat_Kho_Edit>
 }
 
+@if (m_blIs_Show_Edit_Info == true)
+{
+    <F3001_5_Xuat_Kho_Info_Edit r_iAuto_ID="@r_iAuto_ID" OnClose="@Close_Info_Edit"></F3001_5_Xuat_Kho_Info_Edit>
+}
+
+@if (m_blIs_Show_Edit_Chi_Tiet == true)
+{
+    <F3001_4_Phieu_Xuat_Kho_Edit r_iAuto_ID="@r_iAuto_ID" OnClose="@Close_Chi_Tiet_Phieu_Xuat"></F3001_4_Phieu_Xuat_Kho_Edit>
+}
 @if (r_bIs_Show_Import_Excel == true)
 {
     <FCommon_Import_Excel r_objImport_Excel="@r_objImport_Excel" OnClose="@Close_Import_Excel"></FCommon_Import_Excel>
@@ -84,11 +102,21 @@
     <FCommon_Message_Info r_strMessage_Header="@r_strMessage_Header" r_strMessage_Info="@r_strMessage_Info" OnClose="@Close_Message_Info"></FCommon_Message_Info>
 }
 
+@if (r_blIs_Show_Report == true)
+{
+    <F3001_6_Xuat_Kho_Report r_iAuto_ID="@r_iAuto_ID" OnClose="@Close_Edit"></F3001_6_Xuat_Kho_Report>
+}
+
 @code {
+
     public List<CDM_Xuat_Kho> v_arrData = new();
     TelerikGrid<CDM_Xuat_Kho> grdData = new();
     private CDM_Xuat_Kho m_objData = new();
     private CDM_Kho m_objData_Kho = new();
+    private CDM_NCC m_objData_NCC = new();
+    private bool m_blIs_Show_Edit_Info { get; set; } = false;
+    private bool m_blIs_Show_Edit_Chi_Tiet { get; set; } = false;
+
     protected override void Init_Data()
     {
 
@@ -99,7 +127,7 @@
         Format_Grid(grdData);
         CDM_Xuat_Kho_Controller v_objCtrData = new();
         m_objData_Kho = CCache_Kho.Get_Data_By_ID(m_objData.Kho_ID);
-        v_arrData = v_objCtrData.FQ_541_XK_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
+        v_arrData = v_objCtrData.FQ_728_XK_sp_sel_List_By_Created(r_objFilter.Date_From, r_objFilter.Date_To);
     }
 
     protected override void Delete_Data_Entry(long p_iAuto_ID)
@@ -107,15 +135,55 @@
         CDM_Xuat_Kho_Controller v_objCtrData = new();
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
-        CDM_Xuat_Kho v_objData = v_objCtrData.FQ_541_XK_sp_sel_Get_By_ID(p_iAuto_ID);
+        CDM_Xuat_Kho v_objData = v_objCtrData.FQ_728_XK_sp_sel_Get_By_ID(p_iAuto_ID);
         if (v_objData != null)
             r_strDelete_Key = v_objData.So_Phieu_Xuat_Kho;
         // End tracking
 
 
-        v_objCtrData.FQ_541_XK_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
+        v_objCtrData.FQ_728_XK_sp_del_Delete_By_ID(p_iAuto_ID, r_strActive_User_Name, r_strActive_Function_Code);
         CCache_Xuat_Kho.Delete_Data(p_iAuto_ID);
+        CCache_Xuat_Kho.Load_Cache_Xuat_Kho();
+        CCache_Phieu_Xuat_Kho.Load_Cache_Phieu_Xuat_Kho();
+    }
+    #region form Edit con
+
+    protected void Open_Info_Edit(long p_iAuto_ID)
+    {
+        r_strError = "";
+        r_iAuto_ID = p_iAuto_ID;
+        m_blIs_Show_Edit_Info = true;
+        StateHasChanged();
     }
 
+    private void Close_Info_Edit(CEvent_Call_Back p_obj)
+    {
+        if (p_obj.Message_ID != (int)EModal_Result.Exception)
+        {
+            m_blIs_Show_Edit_Info = false;
+            Load_Data_Init();
+        }
+    }
+
+    protected void Open_Chi_Tiet_Phieu_Xuat_Edit(long p_iAuto_ID)
+    {
+        r_strError = "";
+        r_iAuto_ID = p_iAuto_ID;
+        m_blIs_Show_Edit_Chi_Tiet = true;
+        StateHasChanged();
+    }
+
+    private void Close_Chi_Tiet_Phieu_Xuat(CEvent_Call_Back p_obj)
+    {
+        if (p_obj.Message_ID != (int)EModal_Result.Exception)
+        {
+            m_blIs_Show_Edit_Chi_Tiet = false;
+            Load_Data_Init();
+        }
+    }
+
+    #endregion form Edit con
 
 }
+
+

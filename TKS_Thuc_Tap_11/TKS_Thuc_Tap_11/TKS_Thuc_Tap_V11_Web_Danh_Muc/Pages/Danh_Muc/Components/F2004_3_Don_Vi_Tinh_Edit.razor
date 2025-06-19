@@ -68,7 +68,7 @@
     protected override void Load_Data()
     {
         CDM_Don_Vi_Tinh_Controller v_objCtrData = new();
-        m_objData = v_objCtrData.FQ_535_DVT_sp_sel_Get_By_ID(r_iAuto_ID);
+        m_objData = v_objCtrData.FQ_110_DVT_sp_sel_Get_By_ID(r_iAuto_ID);
 
         if (m_objData == null)
             m_objData = new CDM_Don_Vi_Tinh();
@@ -102,7 +102,7 @@
 
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_535_DVT_sp_ins_Insert(m_objData);
+        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_110_DVT_sp_ins_Insert(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         r_strAdd_Key = m_objData.Ten_Don_Vi_Tinh;
@@ -136,7 +136,7 @@
         // CDM_Don_Vi_Tinh_Controller v_objCtrData = new();
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        v_objCtrData.FQ_535_DVT_sp_upd_Update(m_objData);
+        v_objCtrData.FQ_110_DVT_sp_upd_Update(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         CDM_Don_Vi_Tinh v_objClone = new();

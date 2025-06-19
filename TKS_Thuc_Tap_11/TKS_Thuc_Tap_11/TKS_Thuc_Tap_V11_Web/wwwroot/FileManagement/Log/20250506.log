@@ -1,0 +1,7 @@
+|Trace|CSqlHelper|FillDataTable|06/05/2025|01:42:00|Store: FQ_501_AS_sp_sel_List_For_Cache execute 1.221636
+|Trace|CSqlHelper|FillDataTable|06/05/2025|01:42:04|Store: FQ_506_CHCA_sp_sel_List_For_Cache execute 2.229862
+|Trace|CSqlHelper|FillDataTable|06/05/2025|01:42:05|Store: FQ_401_A_sp_sel_List_For_Cache execute 1.216989
+|Trace|CSqlHelper|FillDataTable|06/05/2025|01:57:26|Store: FQ_529_SN_sp_sel_List_For_Cache execute 1.287666
+|Trace|CSqlHelper|FillDataTable|06/05/2025|03:58:08|Store: FQ_503_ASCHF_sp_sel_List_For_Cache execute 1.032576
+|Trace|CSqlHelper|FillDataTable|06/05/2025|04:20:06|Store: FQ_504_ASF_sp_sel_List_For_Cache execute 1.300334
+|Trace|CSqlHelper|FillDataTable|06/05/2025|05:35:41|Store: FQ_505_AT_sp_sel_List_For_Cache execute 1.453775

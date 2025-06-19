@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = TKS_Thuc_Tap_V11_Web_Control
 build_property.RootNamespace = TKS_Thuc_Tap_V11_Web_Control
-build_property.ProjectDir = C:\Users\nguyendangynhi\Downloads\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Control\
+build_property.ProjectDir = C:\Users\nguyendangynhi\Documents\ThucTapSKSolution1\WMS\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Control\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nguyendangynhi\Downloads\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Control
+build_property.MSBuildProjectDirectory = C:\Users\nguyendangynhi\Documents\ThucTapSKSolution1\WMS\TKS_Thuc_Tap_11\TKS_Thuc_Tap_11\TKS_Thuc_Tap_V11_Web_Control
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_API_Source_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_API_Source_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9BUElfU291cmNlX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_API_Source_Function_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_API_Source_Function_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9BUElfU291cmNlX0Z1bmN0aW9uX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Cau_Hinh_Chuc_Nang_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Cau_Hinh_Chuc_Nang_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9DYXVfSGluaF9DaHVjX05hbmdfQ29tYm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Cau_Hinh_Ten_Grid_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Cau_Hinh_Ten_Grid_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9DYXVfSGluaF9UZW5fR3JpZF9Db21iby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Chuc_Nang_App_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Chuc_Nang_App_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9DaHVjX05hbmdfQXBwX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Chu_Hang_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Chu_Hang_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9DaHVfSGFuZ19Db21iby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Common_Combo_Enum.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Common_Combo_Enum.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9Db21tb25fQ29tYm9fRW51bS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Common_Combo_Text.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Common_Combo_Text.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9Db21tb25fQ29tYm9fVGV4dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Mau_Col_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Mau_Col_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9NYXVfQ29sX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Nhom_PDA_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Nhom_PDA_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9OaG9tX1BEQV9Db21iby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_STT_Next_Type_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_STT_Next_Type_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9TVFRfTmV4dF9UeXBlX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Thang_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Thang_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9UaGFuZ19Db21iby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Thanh_Vien_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Thanh_Vien_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9UaGFuaF9WaWVuX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Trang_Thai_Common_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Trang_Thai_Common_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9UcmFuZ19UaGFpX0NvbW1vbl9Db21iby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Webhook_Combo.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/ComboBox_Control/FControl_Webhook_Combo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tYm9Cb3hfQ29udHJvbFxGQ29udHJvbF9XZWJob29rX0NvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguyendangynhi/Downloads/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/_Imports.razor]
+[C:/Users/nguyendangynhi/Documents/ThucTapSKSolution1/WMS/TKS_Thuc_Tap_11/TKS_Thuc_Tap_11/TKS_Thuc_Tap_V11_Web_Control/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

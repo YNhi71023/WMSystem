@@ -50,7 +50,14 @@
 											<span class="form-label">@CUtility.Get_Label_Text(@m_objData.Ten_San_Pham, false)</span>
 										</div>
 									</div>
-
+									<div class="row mb-3">
+										<div class="col-lg-11">
+											<label class="form-label-info">@Get_Language_Data_Field("Loại sản phẩm")</label><br />
+											<span class="form-label">
+												@CUtility.Get_Label_Text(@m_objData_LSP.Ten_LSP, false)
+											</span>
+										</div>
+									</div>
 									<div class="row mb-3">
 										<div class="col-lg-11">
 											<label class="form-label-info">@Get_Language_Data_Field("Đơn vị tính")</label><br />
@@ -61,24 +68,10 @@
 									</div>
 									<div class="row mb-3">
 										<div class="col-lg-11">
-											<label class="form-label-info">@Get_Language_Data_Field("Loại sản phẩm")</label><br />
-											<span class="form-label">
-												@CUtility.Get_Label_Text(@m_objData_LSP.Ten_LSP, false)
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4">
-
-
-									<div class="row mb-3">
-										<div class="col-lg-11">
 											<label class="form-label-info">@Get_Language_Data_Field("Ghi chú")</label><br />
 											<span class="form-label">@CUtility.Get_Label_Text(@m_objData.Ghi_Chu, false)</span>
 										</div>
 									</div>
-
 								</div>
 
 								<div class="col-lg-4">
@@ -150,9 +143,8 @@
 		CDM_San_Pham_Controller v_objCtrData = new();
 		CLog_Record_Action_History_Controller v_objCtrRAH = new();
 
-		m_objData = v_objCtrData.FQ_537_SP_sp_sel_Get_By_ID(r_iAuto_ID);
+		m_objData = v_objCtrData.FQ_165_SP_sp_sel_Get_By_ID(r_iAuto_ID);
 		m_objData_DVT = CCache_Don_Vi_Tinh.Get_Data_By_ID(m_objData.Don_Vi_Tinh_ID);
 		m_objData_LSP = CCache_Loai_San_Pham.Get_Data_By_ID(m_objData.Loai_San_Pham_ID);
-		m_arrRAH = v_objCtrRAH.FCommon_Sys_sp_sel_List_Log_Record_Action_History(r_iAuto_ID);
 	}
 }

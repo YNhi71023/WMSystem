@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TKS_Thuc_Tap_V11_Data_Access")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f291df2daf01b7f83c71582c18b7e2d41c3e2a4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TKS_Thuc_Tap_V11_Data_Access")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TKS_Thuc_Tap_V11_Data_Access")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

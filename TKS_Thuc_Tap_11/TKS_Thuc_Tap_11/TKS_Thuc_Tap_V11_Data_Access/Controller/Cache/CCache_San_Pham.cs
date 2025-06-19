@@ -22,7 +22,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Controller.Cache
             Dic_Data_Code.Clear();
             Dic_Data_Ten_San_Pham.Clear();
             CDM_San_Pham_Controller v_objCtrl = new();
-            List<CDM_San_Pham> v_arrTemp_Data = v_objCtrl.FQ_537_SP_sp_sel_List_For_Cache();
+            List<CDM_San_Pham> v_arrTemp_Data = v_objCtrl.FQ_165_SP_sp_sel_List_For_Cache();
 
             foreach (CDM_San_Pham v_objData in v_arrTemp_Data)
                 Add_Data(v_objData);

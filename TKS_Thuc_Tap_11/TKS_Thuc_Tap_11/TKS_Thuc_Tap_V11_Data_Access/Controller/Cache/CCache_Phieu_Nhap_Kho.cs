@@ -22,7 +22,7 @@ namespace TKS_Thuc_Tap_V11_Data_Access.Controller.Cache
             Dic_Data_Code.Clear();
             //Dic_Data_Ten_Phieu_Nhap_Kho.Clear();
             CDM_Phieu_Nhap_Kho_Controller v_objCtrl = new();
-            List<CDM_Phieu_Nhap_Kho> v_arrTemp_Data = v_objCtrl.FQ_542_NKR_sp_sel_List_For_Cache();
+            List<CDM_Phieu_Nhap_Kho> v_arrTemp_Data = v_objCtrl.FQ_719_NKRD_sp_sel_List_For_Cache();
 
             foreach (CDM_Phieu_Nhap_Kho v_objData in v_arrTemp_Data)
                 Add_Data(v_objData);

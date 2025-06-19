@@ -43,7 +43,7 @@
                                     <label class="form-label">@Get_Language_Data_Field("Đơn vị tính"):</label>
                                     <TelerikMultiColumnComboBox @bind-Value="@m_objData.Don_Vi_Tinh_ID"
                                                                 ScrollMode="@DropDownScrollMode.Virtual"
-                                                                Data="@m_arrData"
+                                                                Data="@m_arrDataDVT"
                                                                 ValueField="@(nameof(CDM_Don_Vi_Tinh.Auto_ID))"
                                                                 TextField="@(nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh))"
                                                                 Width="100%"
@@ -108,22 +108,22 @@
     private CDM_San_Pham m_objData = new();
     private List<IBrowserFile> loadedFiles = new();
     private bool m_bIs_Update_File = false;
-    List<CDM_Don_Vi_Tinh> m_arrData = new();
+    List<CDM_Don_Vi_Tinh> m_arrDataDVT = new();
     List<CDM_Loai_San_Pham> m_arrDataLSP = new();
 
 
 
     protected override void Init_Data()
     {
-        m_arrData.Clear();
-        m_arrData = CCache_Don_Vi_Tinh.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
+        m_arrDataDVT.Clear();
+        m_arrDataDVT = CCache_Don_Vi_Tinh.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
         m_arrDataLSP = CCache_Loai_San_Pham.Arr_Data.Where(it => it.Auto_ID != r_iAuto_ID).ToList();
     }
 
     protected override void Load_Data()
     {
         CDM_San_Pham_Controller v_objCtrData = new();
-        m_objData = v_objCtrData.FQ_537_SP_sp_sel_Get_By_ID(r_iAuto_ID);
+        m_objData = v_objCtrData.FQ_165_SP_sp_sel_Get_By_ID(r_iAuto_ID);
 
         if (m_objData == null)
             m_objData = new CDM_San_Pham();
@@ -157,7 +157,7 @@
 
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_537_SP_sp_ins_Insert(m_objData);
+        m_objData.Auto_ID = r_iAuto_ID = v_objCtrData.FQ_165_SP_sp_ins_Insert(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         r_strAdd_Key = m_objData.Ma_San_Pham;
@@ -191,7 +191,7 @@
         // CDM_San_Pham_Controller v_objCtrData = new();
         m_objData.Last_Updated_By = r_strActive_User_Name;
         m_objData.Last_Updated_By_Function = r_strActive_Function_Code;
-        v_objCtrData.FQ_537_SP_sp_upd_Update(m_objData);
+        v_objCtrData.FQ_165_SP_sp_upd_Update(m_objData);
 
         // Đoạn code lưu key cho việc tracking log CRUD, vui lòng đừng xóa
         CDM_San_Pham v_objClone = new();
